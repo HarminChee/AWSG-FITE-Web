@@ -1,0 +1,25 @@
+- name: AI-driven wireless communications system and wireless networks
+  photo: DNNMIMO.png
+  has_photo: 1
+  description:
+  has_link: 0
+
+- name: Networking for Blockchain
+  photo: bc.jpg
+  has_photo: 1
+  description: Network protocol and network architecture designs for blockchain, with the aim to boost transaction throughput.
+  has_link: 0
+
+- name: Physical-layer Network Coding (PNC)
+  photo: pncRelay.png
+  has_photo: 1
+  description: PNC is about applying the principle of NC by allowing EM waves to add up physically in a wireless broadcast situation. Details of the Source code of RPNC can be found in the following link.
+  has_link: 1
+  link: rpnc.html
+
+- name: Real-Time Time-slotted System on SDR (RTTS-SDR)
+  photo: rtts_sdr.jpg
+  has_photo: 1
+  description: RTTS-SDR is a system that we implemented on PC-USRP using GNURadio. It can achieve synchronization among nodes and aligned their time slots to within 100ns, and the end-to-end latency can be down to 3.75ms.
+  has_link: 1
+  link: rtts-sdr.html

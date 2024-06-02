@@ -1,0 +1,198 @@
+- a: T. Ding, X. Yuan, S. C. Liew
+  t: Sparsity Learning Based Multiuser Detection in Grant-Free Massive-Device Multiple Access
+  i: accepted by IEEE Trans. on Wireless Commun., available as early access, DOI 10.1109/TWC.2019.2915955, May. 2019.
+
+- a: Y. Yu, T. Wang, S. C. Liew
+  t: Deep-Reinforcement Learning Multiple Access for Heterogeneous Wireless Networks
+  i: IEEE J. on Selected Areas in Commun., vol. 37, no. 6, pp. 1277-1290, DOI 10.1109/JSAC.2019.2904329, Jun.  2019.
+
+- a: T. Ding, X. Yuan, S. C. Liew
+  t: Algorithmic Beamforming Design for MIMO Multiway Relay Channel with Clustered Full Data Exchange
+  i: "IEEE Trans. on Vehicular Technology, vol. 67, no, 10, pp. 10081-10086, DOI: 10.1109/TVT.2018.2859312, July 2018."
+
+- a: T. Wang, Q. Yang*, K. Tan, J. Zhang, S. C. Liew, S. Zhang
+  t: "DCAP: Improving the Capacity of WiFi Networks with Distributed Cooperative Access Points"
+  i: IEEE Trans. on Mobile Computing, vol. 17, no. 2, pp. 320-333, Feb. 2018.
+
+- a: Y. Fang, S. C. Liew, T. Wang*
+  t: Design of Distributed Protograph LDPC Codes for Multi-Relay Coded-Cooperative Networks
+  i: IEEE Trans. on Wireless Communications, vol. 16, no. 11, pp. 7235-7251, DOI 0.1109/TWC.2017.2743699, Nov. 2017.
+
+- a: H. Pan, L. Lu, S. C. Liew
+  t: Practical Power-Balanced Non-Orthogonal Multiple Access
+  i: IEEE J. on Selected Areas in Commun., vol. 35, no. 10, pp. 2312-2327, DOI 10.1109/JSAC.2017.2727198, Oct. 2017.
+
+- a: T. Ding, X. Yuan, S. C. Liew
+  t: On the Degrees of Freedom of the Symmetric Multi-Relay MIMO Y Channel
+  i: IEEE Trans. on Wireless Communications, vol. 16, no. 9, pp. 5673-5688, DOI 10.1109/TWC.2017.2712770, Sep. 2017.
+
+- a: T. Wang, S. C. Liew
+  t: Frequency-Asynchronous Multiuser Joint Channel-Parameter Estimation, CFO Compensation and Channel Decoding
+  i: vol. 65, no. 12, pp. 9732-9746, IEEE Trans. on Vehicular Technologies, Dec. 2016.
+
+- a: P. Wang, Y. Li, Y. Peng, S. C. Liew, B. Vucetic
+  t: Non-uniform Linear Antenna Array Design and Optimization for Millimeter Wave Communications
+  i: vol. 15, no. 11, pp. 7343-7356,  IEEE Trans. on Wireless Communications, Nov. 2016.
+
+- a: Q. Zhao, S. C. Liew, S. Zhang, Y. Yu
+  t: Distance-based Location Management Utilizing Initial Position for Mobile Communication Networks
+  i: IEEE Trans. on Mobile Computing, vol. 15, no. 1, pp. 107-120, Jan. 2016.
+
+- a: C. H. Kai, S. C. Liew
+  t: Temporal Starvation in CSMA Networks
+  i: IEEE Trans. on Mobile Computing, vol. 14, no. 7, pp. 1515-1529, Jul. 2015.
+
+- a: I. W-H Ho, P. P. Lam, P. H. J. Chong, S. C. Liew
+  t: Harnessing the High Bandwidth of Multi-radio Multi-channel 802.11n Mesh Networks
+  i:  IEEE Trans. on Mobile Computing, vol. 13, no. 2, pp. 448-456, Feb. 2014.
+
+- a: M. Chen, S. C. Liew, Z. Shao, C. Kai
+  t: Markov Approximation for Combinatorial Network Optimization
+  i: IEEE Trans. on Info. Theory, vol. 59, no. 10, pp. 6301-6327, Oct. 2013.
+
+- a: X. Li, H. Yao, M. Wang, S. C, Liew
+  t: "ADMOT: Compressive Sensing Techniques for Channel Monitoring in Multiple Access Networks"
+  i:  IEEE ICASSP 2013, May 2013.
+
+- a: S. Yoon, L. E. Li, S. C. Liew, R. R. Choudhury, I. Rhee, K. Tan 
+  t: "QuickSense: Fast and Energy-Efficient Channel Sensing for Dynamic Spectrum Access Networks"
+  i:  IEEE Infocom '13, Apr. 2013.
+
+- a: L. Fu, S. C. Liew, J. Huang
+  t: Effective Carrier Sensing in CSMA Networks under Cumulative Interference
+  i: IEEE Trans. on Mobile Computing, vol. 12, no. 4, pp. 748-760, Apr. 2013.
+
+- a: C. H. Kai, S. C. Liew
+  t: Applications of Belief Propagation in CSMA Networks
+  i: IEEE/ACM Trans. on Networking, vol. 20, no. 4, pp. 1276-1289, Aug. 2012.
+
+- a: K. K. Lam, C. K. Chau, M. Chen, S. C. Liew
+  t: Mixing Time and Temporal Starvation of General CSMA Networks with Multiple Frequency Agility 
+  i:  IEEE ISIT '12, July 2012.
+
+- a: C-K Chau, J. Zhang, M. Chen, S. C. Liew
+  t: Interference-safe CSMA Networks by Local Aggregate Interference Power Measurement
+  i: WiOpt 2012, May 2012.
+
+- a: Fu, H. Kim, J. Huang, S. C. Liew, M. Chiang
+  t: "Energy Conservation and Interference Mitigation: From Decoupling Property to Win-Win Strategy"
+  i: IEEE Trans. on Wireless Communications, vol. 10, no. 11, pp. 3943-3955, Nov 2011. 
+
+- a: I. W-H Ho, P. P. Lam, P H. J. Chong, S. C. Liew
+  t: "Real-life Experiments of Multi-radio Multi-channel Wireless Mesh Networks: 802.11n is not any better than 802.11a! "
+  i: 8th Int. Conf. Information, Communication, and Signal Processing, Oct 2011.
+
+- a: H. Dai, S. C. Liew, L. Fu
+  t: Link Scheduling in Multi-Transmit-Receive Wireless Networks
+  i: IEEE LCN, Oct 2011. 
+
+- a: C. Kai, S. C. Liew
+  t: Temporal Starvation in CSMA Wireless Networks
+  i: IEEE ICC, June 2011. 
+
+- a: C. K. Chau, M. Chen, S. C. Liew
+  t: Capacity of Large-scale CSMA Wireless Networks
+  i: ACM/IEEE Trans. Networking.
+
+- a: W. Chen, Y. Wang, M. Chen, S. C. Liew
+  t: On the Performance of TCP over Throughput-optimal CSMA
+  i: ACM/IEEE IWQoS, June 2011. 
+
+- a: S. C. Liew, C. H. Kai, H. C. J. Leung, P. B. Wong
+  t: Back-of-the-Envelope Computation of Throughput Distributions in CSMA Wireless Networks
+  i:  IEEE Trans. on Mobile Computing, vol. 5, no. 5, pp. 1319-1331, Sep 2010.
+ 
+- a: P. C. Ng, D. J. Edwards, S. C. Liew
+  t: Scaling Capacity by Two Channels in IEEE802.11 Ad Hoc Networks with SIR Comparison Algorithm
+  i: vol. 59, no. 4, pp. 2071-2079, IEEE Trans. on Vehicular Technology, May 2010. 
+
+- a: L. Fu, S. C. Liew, J. Huang
+  t: Fast Algorithms for Joint Power Control and Scheduling in Wireless Networks
+  i:  IEEE Trans. on Wireless Communications, vol. 9, no. 3, pp. 1186-1197, Mar 2010. 
+
+- a: C. H. Kai, S. C. Liew
+  t: Towards a More Accurate Carrier Sensing Model for CSMA Wireless Networks
+  i:  IEEE ICC, May 2010.
+
+- a: L. Fu, S. C. Liew, J. Huang
+  t: Effective Carrier Sensing in CSMA Networks under Cumulative Interference
+  i:  IEEE Infocom, Mar 2010.
+
+- a: M. Chen, S. C. Liew, Z. Shao, C. Kai
+  t: Markov Approximation for Combinatorial Network Optimization
+  i: IEEE Infocom, Mar 2010.
+
+- a: P. C. Ng, D. J. Edwards, S. C. Liew
+  t: Assigning Channels by Link-directionality in a MAC Protocol for IEEE 802.11 Ad-hoc Networks"
+  i:  IET Communications, vol. 3, no. 11, pp. 1736-1746, Nov 2009.
+
+- a: C. K. Chau, M Chen, S. C. Liew
+  t: Capacity of Large-Scale CSMA Wireless Networks
+  i: Mobicom 2009, Sept 2009. 
+
+- a: S. C. Liew, C. Kai, J. Leung, B. Wong
+  t: Back-of-the-Envelope Computation of Throughput Distributions in CSMA Wireless Networks
+  i: IEEE ICC, June 2009.
+
+- a: C. P. Chan, S. C. Liew, A. Chan
+  t: Many-to-One Throughput Capacity of IEEE 802.11 Multi-hop Wireless Networks
+  i: IEEE Trans. on Mobile Computing, vol. 8, no. 4, pp. 514-527, Apr 2009. 
+
+- a: J. Zhang, S. C. Liew, L. Fu
+  t: On Fast Optimal STDMA Scheduling over Fading Wireless Channels
+  i: IEEE Infocom, Apr 2009. 
+
+- a: L. B. Jiang and S. C. Liew
+  t: Improving Throughput and Fairness by Reducing Exposed and Hidden Nodes in 802.11 Networks
+  i: IEEE Trans. on Mobile Computing, vol. 7, no. 1, pp. 34-49, Jan 2008.
+
+- a: W. H. Ho and S. C. Liew
+  t: Impact of Power Control on Performance of IEEE 802.11 Networks
+  i:  IEEE Trans. on Mobile Computing, vol. 6, no. 11, pp. 1245-1258, Nov 2007.
+
+- a: L. B. Jiang and S. C. Liew
+  t: Hidden-node Removal and Its Application in Cellular WiFi Networks
+  i: IEEE Trans. on Vehicular Technology, vol. 56, no. 5, pp. 2641-2654, Sep 2007.
+
+- a: P. C. Ng and S. C. Liew
+  t: Throughput Analysis of IEEE802.11 Multi-hop Ad-hoc Networks
+  i:  IEEE/ACM Trans. on Networking, vol. 15, no. 2, pp. 309-322, Apr 2007.
+
+- a: A. Chan and S. C. Liew
+  t: "Merit of PHY-MAC Cross-Layer Carrier Sensing: A MAC-Address-based Physical Carrier Sensing Scheme for Solving Hidden-Node and Exposed-Node Problems in Large-Scale Wi-Fi Networks"
+  i:  The 6th IEEE Workshop on Wireless Local Networks, Nov 2006. 
+
+- a: W. H. Ho and S. C. Liew
+  t: Distributed Power Control in IEEE 802.11 Wireless Networks
+  i: IEEE International Conference on Mobile Ad-hoc and Sensor System (MASS), Oct 2006.
+
+- a: Q. Pang, V. C. M. Leung, and S. C. Liew
+  t: A Rate Adaptation Algorithm for IEEE 802.11 WLANs Based on MAC-Layer Loss Differentiation
+  i: BroadNets 2005 Wireless Networking Symposium, Oct 2005.
+
+- a: Q. Pang, S. C. Liew, V. C. M. Leung
+  t: Design of an Effective Loss-Distinguishable MAC Protocol for 802.11 WLAN
+  i:  IEEE Communications Letters, vol. 9, no. 9, pp. 781-783, Sept 2005. 
+
+- a: P. C. Ng and S. C. Liew
+  t: Re-routing Instability in IEEE 802.11 Multi-hop Ad-hoc Networks
+  i: Ad Hoc and Sensor Wireless Networks, August 2005 
+  award: Invited Paper. Shorter version appeared in IEEE WLN and won the best-paper award in the workshop. 
+
+- a: L. Jiang and S. C. Liew
+  t: Proportional Fairness in WLANs and Ad Hoc Networks
+  i:  IEEE Wireless Communications and Network Conference (WCNC), Mar 2005.
+
+- a: Q. Pang, S. C. Liew, J. Y. B. Lee, and V. Leung
+  t: Performance Evaluation of An Adaptive Backoff Scheme for WLAN
+  i: Wireless Communications and Mobile Computing, vol. 5, issue 8, Dec, 2004. 
+
+- a: P. C. Ng and S. C. Liew
+  t: Re-routing Instability in IEEE 802.11 Multi-hop Ad-hoc Networks
+  i: The 4th IEEE International Workshop on Wireless Local Network, Nov 2004 
+  award: Received best paper award! 
+
+- a: P. C. Ng, and S. C. Liew
+  t: Offered Load control in IEEE 802.11 Multi-hop Ad-hoc Networks
+  i: The 1st IEEE International Conference on Mobile Ad-hoc and Sensor System, Oct 2004
+  award: Received best paper award!

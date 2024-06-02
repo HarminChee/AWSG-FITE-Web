@@ -1,0 +1,11 @@
+- date: 24 October 2021
+  headline: <b>Our group member, Lihao Zhang won the Best Student Paper Award in IEEE CPSCOM 2021!</b>
+  content: Congradulations to our group member Lihao Zhang, Prof. Taotao Wang, and Prof. Soung Chang Liew, for winning the Best Student Paper Award in <a href="http://nsclab.org/cpscom2021/index.html">IEEE CPSCOM 2021</a>!
+  has_link: 1
+  link: <a href="https://www.ie.cuhk.edu.hk/lnews/21-10-25.shtml">News from IE Department</a>
+
+- date: 28. October 2019
+  headline: <b>Our new website is online!</b>
+  content: The website is based on Jekyll and Bootstrap.
+  has_link: 1
+  link: <a href="index.html">Homepage of our website</a>

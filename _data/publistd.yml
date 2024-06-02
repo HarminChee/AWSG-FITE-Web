@@ -1,0 +1,23 @@
+- a: H. P. Sze, S. C. Liew, and J. Y. B. Lee
+  t: A Packet-Loss-Recovery Scheme for Continuous-Media Streaming over Internet
+  i: IEEE Communications Letters, March 2001.
+
+- a: H. P. Sze, S. C. Liew, J. Y. B. Lee, and C. Yip
+  t: A Multiplexing Scheme for H.323 Voice-over-IP Applications
+  i: IEEE J. on Selected Areas in Commun., vol. 20, no. 7, pp. 1360- 1368, Sept 2002. 
+
+- a: S. C. Liew and P. Wu
+  t: A Streaming-Protocol Retransmission Scheme without Client-Server Clock Synchronization
+  i: IEEE Communications Letters, vol. 3, no. 7, pp.223-225, July 1999. 
+
+- a: S. C. Liew and C. Y. Tse
+  t: A Control-Theoretic Framework for Adaptation of VBR Compressed Video for Transport over a CBR Communications Channel
+  i: IEEE Trans. on Networking, vol. 6, no. 1, pp. 42-55, Feb 1998. 
+
+- a: S. C. Liew and H. H. Chan
+  t: "Lossless aggregation: a scheme for transmitting multiple stored VBR video streams over a shared communications channel without loss of image quality"
+  i: IEEE J. on Selected Areas in Commun. vol. 15, no. 6, pp. 1181-1189, Aug 1997. 
+
+- a: S. C. Liew and C. Y. Tse
+  t: "Video Aggregation: Adapting Video Traffic for Transport over Broadband Networks by Integrating Data Compression and Statistical Multiplexing"
+  i:  IEEE J. on Selected Areas in Commun., vol. 14, no. 6, pp. 1123-1137, Aug 1996.

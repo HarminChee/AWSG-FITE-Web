@@ -1,0 +1,63 @@
+- name:  <a href="http://jiaxinliang.com">LIANG Jiaxin</a>
+  photo: jiaxin.jpeg
+  info: From 09/2015 to present 
+  area: Wireless Communications, Software-defined Radio, Industrial IoT Networks, 5G, URLLC
+  email:  jiaxin[at]ie.cuhk.edu.hk
+  number_educ: 1
+  education1: B.E The Chinese University of Hong Kong
+  education2: 
+  education3: 
+  education4:  
+  education5: 
+
+- name:  ZHANG Lihao
+  photo: lihao.jpg
+  info: From 09/2017 to present
+  area: Real-time Wireless Implementation, Field Programmable Gate Array (FPGA), Software-define Radio (SDR)
+  email:  lihaocuhk[at]gmail.com
+  number_educ: 2
+  education1: Bachelor Shenzhen University
+  education2: MSc(CUHK) with Prof. LIEW Soung-chang
+  education3: 
+  education4:  
+  education5: 
+
+- name:  <a href="https://gp-chen.github.io/Gongpu.Chen/">CHEN Gongpu</a>
+  photo: Gongpu.jpg
+  info: From 08/2019 to present 
+  area: Industrial IoT, Cyber physical systems
+  email:  gpchen[at]ie.cuhk.edu.hk
+  number_educ: 2
+  education1: Bachelor University of Electronic Science and Technology of China (UESTC)
+  education2: Master Southeast University
+  education3: 
+  education4:  
+  education5: 
+
+- name: YANG Qun
+  photo: yangqun.jpg
+  info: From 08/2020 to present 
+  area: Cooperative obstacle avoidance of mobile robot, ROS real-time performance optimization
+  email: yq020[at]ie.cuhk.edu.hk
+  number_educ: 2
+  education1: Bachelor Central South University
+  education2: Master Central South University
+  education3: 
+  education4:  
+  education5: 
+
+- name: DU Yuyang
+  photo: yuyang.jpg
+  info: From 1/2021 to present 
+  area: Distributed Antenna System, IFDMA, FPGA implement
+  email: dy020[at]ie.cuhk.edu.hk
+  number_educ: 1
+  education1: Bachelor Peking University (PKU)
+
+- name: CUI Hongwei
+  photo: hongwei.jpg
+  info: From 8/2021 to present 
+  area: Wireless Communication, Embedded System, Internet of Things
+  email: CuiHongwei1999[at]outlook.com
+  number_educ: 1
+  education1: Bachelor Shandong University

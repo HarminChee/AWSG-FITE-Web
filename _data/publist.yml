@@ -1,0 +1,255 @@
+- t: Channel Decoding and Nonbinary Physical-Layer Network Coding in Two-Way Relay Systems 
+  a: P. Chen, L. Shi, S. C. Liew, Y. Fang, K. Cai
+  i: IEEE Trans. on Vehicular Technology, vol. 68, no. 1, pp. 628-640, Jan. 2019. 
+
+- t: "OFDM Modulated PNC in V2X Communications: An ICI-aware Approach against CFOs and Time-frequency-selective Channels"
+  a: Z. Situ, I. W-H Ho, T. Wang, S. C. Liew, S. C-K Chau
+  i: IEEE Access, vol. 7, no.1, pp. 4880-4897,  Dec. 2018
+
+- a: Z. Wang, S. C. Liew, L. Lu, 
+  t: Noncoherent Detection for Physical-Layer Network Coding
+  i: IEEE Trans. on Wireless Communications, vol. 17, no. 10, pp. 6901-6916, Oct. 2018.
+
+- a: H. Pan, S. C. Liew, J. Liang*, Y. Shao, L. Lu 
+  t: Network-Coded Multiple Access on Unmanned Aerial Vehicle 
+  i: IEEE J. on Selected Areas in Commun., vol. 36, no. 9, pp. 2071-2086,  Sep. 2018.
+
+- a: Y. Tan, S. C. Liew, T. Huang 
+  t: Mobile Lattice-Coded Physical-Layer Network Coding with Practical Channel Alignment 
+  i: IEEE Trans. on Mobile Computing, vol. 17, no. 8, pp. 1908-1923, Aug. 2018.
+
+- a: H. Pan, L. Lu, S. C. Liew
+  t: Network-Coded Multiple Access with High-Order Modulations
+  i: IEEE Tran. On Vehicular Technology, vol. 66, no. 11, pp. 9776-9792,  Nov. 2017.
+
+- a: Y. Shao, S. C. Liew, L. Lu
+  t: "Asynchronous Physical-layer Network Coding: Symbol Misalignment Estimation and Its Effect on Decoding"
+  i: IEEE Trans. on Wireless Communications, vol. 16, no. 10, pp. 6881-6894, Oct. 2017.
+
+- a: L. Long, S. C. Liew
+  t: Complex Linear Physical-layer Network Coding
+  i: IEEE Trans. on Information Theory, vol. 63, no. 8, pp. 4949-4981, Aug. 2017.
+
+- a: L. You, S. C. Liew, L. Lu
+  t: Reliable Physical-layer Network Coding Supporting Real Applications
+  i: IEEE Trans. on Mobile Computing, vol. 16, no. 8, pp. 2334-2350, Aug. 2017.
+
+- a: T. Wang, S. C. Liew, S. Long
+  t: Optimal Rate-Diverse Wireless Network Coding
+  i: IEEE Trans. on Communications, vol. 65, no. 6, pp. 2411-2426, June 2017.
+
+- a: L. F. Xie, I. W-H. Ho, S. C. Liew, L. Lu, F. C. M. Lau
+  t: The Feasibility of Mobile Physical-Layer Network Coding with BPSK Modulation
+  i: IEEE Trans. on Vehicular Technologies, vol. 66, no. 5, pp. 3976-3990, May 2017.
+
+- a: S. S. Ullah, S. C. Liew, L. Lu
+  t: "Phase Asynchronous Physical-layer Network Coding: Decoder Design and Experimental Study"
+  i: IEEE Trans. on Wireless Communications, vol. 16, no. 4, pp. 2708-2720, Mar. 2017.
+
+- a: Q. Yang, S. C. Liew, L. Lu, Y. Shao
+  t: Symbol Misalignment Estimation in Asynchronous Physical-Layer Network Coding
+  i: IEEE Trans. on Vehicular Technologies, vol. 66, no. 3, pp. 2844-2852,  Mar. 2017.
+
+- a: A. Thampi, S. C. Liew, S. Armour, Z. Fan, L. You, D. Kaleshi
+  t: Physical-layer Network Coding in Two-Way Heterogeneous Cellular Networks with Power Imbalance
+  i:  vol. 65, no. 11, pp. 9072-9084, IEEE Trans. on Vehicular Technologies, Nov. 2016.
+
+- a: J. He, S. C. Liew
+  t: ARQ for Physical-layer Network Coding
+  i: IEEE Trans. on Mobile Computing, vol. 15, no. 7, pp. 1614-1631, July 2016.
+
+- a: L. Shi, S. C. Liew, L. Lu
+  t: On the Subtleties of q-PAM Linear Physical-Layer Network Coding
+  i: IEEE Trans. on Info. Theory, vol. 62, no. 5, pp. 2520-2544, May 2016.
+
+- a: H. Xin, X. Yuan, S. C. Liew
+  t: "Multi-pair MIMO Two-Way Relaying: A Principal Angle Perspective"
+  i: IEEE Trans. on Signal Processing, vol. 64, no. 2, pp. 380-394, Jan. 2016.
+
+- a: M. Zhang, L. Lu, S. C. Liew
+  t: An Optimal Decoding Strategy for Physical-layer Network Coding over Multipath Fading Channels
+  i:  IEEE Trans. on Vehicular Technology, vol. 64, no. 9, pp. 4365-4372, Sep. 2015.
+
+- a: L. K. Chen, M. Li, S. C. Liew
+  t: "Breakthroughs in Photonics 2014: Optical Physical-Layer Network Coding, Recent Developments, and Challenges"
+  i: Invited Paper, IEEE Photonics Journal, vol. 7, no. 3, Jun. 2015.
+
+- a: S. Zhang, S. C. Liew, J. Chen
+  t: The Capacity of Known Interference Channel
+  i: IEEE J. on Selected Areas in Commun., vol. 33, no. 6, pp. 1241-1252, Jun. 2015.
+ 
+- a: J. He, S. C. Liew
+  t: Building Blocks of Physical-Layer Network Coding
+  i: IEEE Trans. on Wireless Commun., vol. 14, no. 5, pp. 2711-2728, May 2015.
+ 
+- a: Q. Yang, S. C. Liew
+  t: Asynchronous Convolutional-Coded Physical-Layer Network Coding
+  i: IEEE Trans. on Wireless Commun., vol. 14, no. 3, pp. 1380-1395, Mar. 2015.
+
+- a: L. You, S. C. Liew, L. Lu
+  t: "Network-Coded Multiple Access II: Toward Realtime Operation with Improved Performance"
+  i: IEEE J. on Selected Areas in Commun., vol. 33, 2, pp. 264-280, Feb. 2015.
+
+- a: Qing Y., H. Wang, T. Wang, L. You, L. Lu, S. C. Liew
+  t: "Powerline-PNC: Boosting Throughput of Powerline Networks with Physical-Layer Network Coding"
+  i: IEEE SmartGridComm, Nov. 2015.
+   
+- a: L. F. Xie, I. W-H. Ho, S. C. Liew, L. Lu, F. C. M. Lau
+  t: Mitigating Doppler Effects on Physical-layer Network Coding in VANET
+  i: IEEE PIMRC 2015, Aug-Sep, 2015.
+
+- a: S. Yang, Y. Chen, S. C. Liew, L. You
+  t: Coding for Network-Coded Slotted Aloha
+  i: IEEE ITW 2015, Apr. 2015.
+
+- a: L. Lu, L. You, S. C. Liew
+  t: Network-Coded Multiple Access
+  i: IEEE Trans. on Mobile Computing, vol. 13, no. 12, pp. 2853-2869, Dec. 2014.
+
+- a: Y. Liu, W. Zhang, S. C. Liew, P. C. Ching
+  t: Bounded Delay-Tolerant Space-Time Codes For Distributed Antenna Systems
+  i: IEEE Trans. on Wireless Communications, vol. 13, no. 8, pp. 4044-4655, Aug. 2014.
+ 
+- a: M. Li, Y. Wu, L. K. Chen, S. C. Liew
+  t: Common-channel Optical Physical-layer Network Coding
+  i: IEEE Photonics Technology Letters, vol. 26, no. 13, pp. 1340-1343, July 2014.
+
+- a: T. Wang, S. C. Liew
+  t: "Joint Channel Estimation and Channel Decoding in Physical-Layer Network Coding Systems: An EM-BP Factor Graph Framework"
+  i: IEEE Trans. on Wireless Communications, vol. 13, no. 4, pp. 2229-2245, April 2014.
+ 
+- a: S. Yang, S. C. Liew, L. You, Y. Chen
+  t: Linearly-Coupled Fountain Codes for Network-Coded Multiple Access
+  i: IEEE ITW 2014, Nov. 2014.
+
+- a: Y. Tan, X. Yuan, S. C. Liew, A. Kavcic
+  t: "Asymmetric Compute-and-Forward: Going Beyond One Hop"
+  i: Allerton 2014, Oct. 2014.
+ 
+- a: I. W-H. Ho, S. C. Liew, L. Lu
+  t: Feasibility Study of Physical-Layer Network Coding in 802.11p VANETs
+  i: IEEE ISIT 2014, June 2014.
+
+- a: F. Wang, X. Yuan, S. C. Liew, Y. Li
+  t: Bidirectional Cellular Relay Network with Distributed Relaying
+  i: IEEE J. on Selected Areas in Commun., vol. 31, no. 10, pp. 2082-2098, Oct. 2013
+   
+- a: F. Wang, X. Yuan, S. C. Liew, D. Guo
+  t: "Wireless MIMO Switching: Weighted Sum Mean Square Error and Sum Rate Optimization"
+  i: IEEE Trans. on Info. Theory, vol. 59, no. 9, pp. 5297-5312, Sep. 2013.
+
+- a: S. Feng, S. C. Liew
+  t: Wireless Broadcast with Physical-Layer Network Coding
+  i: IEEE Globecom 2013, Dec. 2013.
+
+- a: Z. Liu, L. Lu, L. You, C. K. Chan, S. C. Liew
+  t: Optical Physical-layer Network Coding over Fiber-Wireless
+  i: The 39th European Conference and Exhibition on Optical Communication (ECOC 2013), Sept. 2013.
+
+- a: L. Lu, L. You, Q. Yang, T. Wang, M. Zhang, S. Zhang, S. Liew
+  t: Real-Time Implementation of Physical-layer Network Coding
+  i: SRIF 2013 (an ACM Sigcomm Workshop), Aug. 2013.
+
+- a: T. Wang, S. C. Liew
+  t: An EM Approach for Joint Channel Estimation and Channel Decoding in Systems Employing Physical-Layer Network Coding
+  i: IEEE ICASSP 2013, May 2013.
+
+- a: F. Wang, X. Yuan, S. C. Liew, D. Guo
+  t: "Wireless MIMO Switching: Sum Rate Optimization"
+  i: IEEE WCNC '13, Apr. 2013.
+
+- a: S. C. Liew, S. Zhang, L. Lu
+  t: "Physical-layer Network Coding: Tutorial, Survey, and Beyond"
+  i: Invited Paper; accepted by Elsevier Phycom, Special Issue of Physical Communication on "Network Coding and Its Applications to Wireless Communications", invited paper, Elsevier Phycom, Special Issue of Physical Communication on "Network Coding and Its Applications to Wireless Communications". A 39-page double-column tutorial paper surveying the research landscape of physical-layer network coding, vol. 6, pp. 4-42, Mar. 2013. http://dx.doi.org/10.1016/j.phycom.2012.05.002
+
+- a: L. Lu, T. Wang, S. C. Liew, S. Zhang
+  t: Implementation of Physical-layer Network Coding
+  i: Elsevier Phycom, Special Issue of Physical Communication on "Network Coding and Its Applications to Wireless Communications", http://dx.doi.org/10.1016/j.phycom.2012.02.008, vol. 6, pp. 74-87, Mar. 2013.
+
+- a: F. Wang, S. C. Liew, D. Guo
+  t: Wireless MIMO Switching with Zero Forcing and Network Coding
+  i: IEEE J. on Selected Areas in Commun, vol. 30, no. 8, pp. 1452-1463, Sep. 2012.
+
+- a: L. F. Xie, P. H. J. Chong, S. C. Liew, Y. L. Guan
+  t: "CEO: Consistency of Encoding and Overhearing in Network Coding-Aware Routing"
+  i: IEEE Wireless Comm. Letter, vol. 2, no. 2, pp. 187-190, Apr. 2013.
+
+- a: S. Zhang, S. C. Liew, H. Wang
+  t: Blind Known Interference Cancellation
+  i: IEEE J. on Selected Areas in Commun., vol. 13, no. 8, pp. 1572-1582, Aug. 2013.
+
+- a: F. Wang, S. C. Liew
+  t: Wireless MIMO Switching
+  i: IEEE Globecom '12, Dec. 2012.
+
+- a: Q. Wang, K. H. Tse, L. K. Chen, S. C. Liew
+  t: Physical-layer Network Coding for VPN in TDM-PON
+  i: IEEE Photon. Technol. Lett. , vol. 24, no. 23, Dec. 2012.
+
+- a: Z. Liu, M. Li, L. Lu, C. K. Chan, S. C. Liew, L. K. Chen
+  t: Optical Physical-layer Network Coding,
+  i: IEEE Photonic Letter, vol. 24, no. 8, 2012.
+
+- a: F. Wang, S. C. Liew, D. Guo
+  t: Wireless MIMO Switching with MMSE Relaying
+  i: IEEE ISIT '12, July 2012.
+
+- a: L. Lu, T. Wang, S. C. Liew, S. Zhang
+  t: Implementation of Physical-layer Network Coding
+  i: IEEE ICC '12, June 2012.
+
+- a: L. Lu, S. C. Liew
+  t: Asynchronous Physical-layer Network Coding
+  i: IEEE Trans. on Wireless Communications, vol. 11, no. 2, pp. 819-831, Feb. 2012.
+
+- a: S. Zhang, S. C. Liew, H. Wang
+  t: Synchronization Analysis for Wireless TWRC Operated with Physical-layer Network Coding
+  i: Wireless Personal Communications, Springer, vol. 68, no. 3, pp. 647-653, Feb. 2013, DOI 10.1007/s11277-011-0473-6.
+
+- a: F. Wang, S. C. Liew, D. Guo
+  t: Wireless MIMO Switching with Zero-forcing Relaying
+  i: Allerton 2011, Sep 2011. 
+
+- a: L. Lu, S. C. Liew, S. Zhang
+  t: Optimal Decoding Algorithm for Asynchronous Physical-Layer Network Coding
+  i: IEEE ICC, June 2011. 
+
+- a: S. Zhang, S. C. Liew, Q. Zhou, L. Lu, H. Wang
+  t: Non-memoryless Analog Network Coding in Two-Way Relay Channel
+  i: IEEE ICC, June 2011. 
+
+- a: L. Lu, S. C. Liew, S. Zhang
+  t: Channel-coded Collision Resolution by Exploiting Symbol Misalignment
+  i: IEEE ICC, May 2010.
+
+- a: S. Zhang, S. C. Liew
+  t: Physical Layer Network Coding with Multiple Antennas
+  i: IEEE WCNC 2010, Apr 2010.
+
+- a: S. Zhang, S. C. Liew
+  t: Applying Physical-layer Network Coding in Wireless Networks
+  i:  vol. 2010, Eurasip Journal of Wireless Communications and Networking, 2010. 
+
+- a: S. Zhang, S. C. Liew, H. Wang, X. Lin
+  t: Capacity of Two-Way Relay Channel, Access Network
+  i:  Springer, vol. 37, Nov 2009.
+
+- a: S. Zhang and S. C. Liew
+  t: Channel Coding and Decoding in a Relay System Operated with Physical-Layer Network Coding
+  i: IEEE J. on Selected Areas in Commun. vol. 27, no. 5, pp. 788-796, June 2009.
+
+- a: S. Zhang, Y. Zhu, S. C. Liew
+  t: Soft Network Coding in Wireless Two-Way Relay Channels
+  i:  Journal of Communication and Networks, Special Issues on Network Coding, vol. 10, no. 4, Dec 2008.
+
+- a: S. Zhang, S. C. Liew, and Lu Lu
+  t: Physical Layer Network Coding Schemes over Finite and Infinite Fields
+  i: IEEE Globecom, Nov 2008.
+
+- a: S. Zhang, Y. Zhu, S. C. Liew, and K. B. Letaief
+  t: Joint Network Coding and Channel Decoding Design for Wireless Network
+  i: IEEE Wireless Communications and Network Conference (WCNC), Mar 2007.
+
+- a: S. Zhang, S. C. Liew, and P. P. Lam
+  t: Physical-Layer Network Coding
+  i: ACM Mobicom 2006, Sept 2006.

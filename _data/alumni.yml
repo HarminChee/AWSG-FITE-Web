@@ -1,0 +1,211 @@
+
+- name: Dr. SHAO Yulin
+  photo: syl.jpg
+  pos_info: RA, PhD, Postdoc
+  duration_t: 1
+  duration: From 03/2015 to 07/2021
+  area: fundamentals of wireless communications and signal processing, Deep Reinforcement Learning
+  email: sy016[at]ie.cuhk.edu.hk
+  now_t: 1
+  now: Postdoctoral fellow @ Imperial College London
+  number_educ: 1
+  education1: B.E, M.E Xidian University
+  education2: 
+  education3: 
+  education4:  
+  education5: 
+
+- name: Dr. YU Yiding
+  photo: Yiding.jpg
+  pos_info: PhD Student
+  area:  AI-driven wireless communications and networking
+  email:  yy016[at]ie.cuhk.edu.hk
+  duration_t: 1
+  duration: From 08/2016 to 06/2020 
+  now_t: 1
+  now: Research Engineer @ Huawei
+  number_educ: 1
+  education1: Bachelor University of Electronic Science and Technology of China (UESTC)
+  education2: 
+  education3: 
+  education4:  
+  education5: 
+  
+- name: Dr. DING Tian
+  photo: dt.jpg
+  pos_info:  M.Phil, Ph.D. 
+  duration_t: 1
+  duration: From 2014 to 2016 (MPhil) From 2016 to 2019 (PhD)
+  now: Research Engineer @ Huawei.inc
+  now_t: 1
+  number_educ: 0
+  education1: 
+
+- name: Dr. WANG Zhaorui
+  photo: wzr.jpg
+  pos_info:  PhD Student 
+  duration_t: 1
+  duration: From 08/2015 to 07/2019
+  now: Postdoctoral fellow @ CUHK
+  now_t: 1
+  number_educ: 0
+  education1: 
+
+- name: Dr. LU Lu
+  photo: ll.jpg
+  pos_info: PhD, Postdoc, and Research Assistant Professsor
+  duration_t:
+  duration: 
+  now_t: 1
+  now: Professor @ UCAS China
+  number_educ: 0
+  education1: 
+
+- name: Dr. TAN Yihua
+  photo: tyh.jpg
+  pos_info:  PhD student
+  duration_t:
+  duration: 
+  now_t: 1
+  now: Research Engineer @ Huawei
+  number_educ: 0
+  education1: 
+
+- name: Dr. Shakeel SALAMAT
+  photo: ss.jpg
+  pos_info: PhD Student 
+  duration_t:
+  duration: 
+  now_t: 1
+  now: CTO @ CU Coding Limited
+  number_educ: 0
+  education1: 
+
+- name:  Saleh NIKOOROO
+  photo: sn.jpg
+  pos_info: M.Phil Student
+  duration_t:
+  duration: 
+  now_t: 0
+  now:   
+  number_educ: 0
+  education1: 
+
+- name: Dr. Mehrdad TAHERNIA
+  photo: taha.jpg
+  pos_info: PhD Student
+  duration_t:
+  duration: 
+  now_t: 0
+  now: 
+  number_educ: 0
+  education1: 
+
+- name: Dr. FANG Yi
+  photo: fangyi.jpg
+  pos_info: Postdoc
+  duration_t:
+  duration: 
+  now_t: 1
+  now: Professor @ GDUT
+  number_educ: 0
+  education1: 
+
+- name: Dr. HE Jianghao
+  photo: hjh.jpg
+  pos_info: PhD Student
+  duration_t:
+  duration: 
+  now_t: 0
+  now: 
+  number_educ: 0
+  education1: 
+
+- name:  CHEN Jian
+  photo: cj.jpg
+  pos_info: Research Assistant
+  duration_t:
+  duration: 
+  now_t: 0
+  now:  
+  number_educ: 0
+  education1: 
+
+
+- name: Dr. ZHANG Minglong
+  photo: zml.jpg
+  pos_info: Research Assistant
+  duration_t:
+  duration: 
+  now_t: 0
+  now:  
+  number_educ: 0
+  education1: 
+
+- name: Dr. SHI Long
+  photo: sl.jpg
+  pos_info: Postdoc
+  duration_t:
+  duration: 
+  now_t: 0
+  now:  
+  number_educ: 0
+  education1: 
+
+- name: Dr. XIN Haiyang
+  photo: xhy.jpeg
+  pos_info: PhD Student
+  duration_t:
+  duration: 
+  now_t: 1
+  now: CEO @ COCOROBO
+  number_educ: 0
+  education1: 
+
+- name: Dr. YOU Lizhao
+  photo: ylz.jpg
+  pos_info: PhD Student
+  duration_t:
+  duration: 
+  now_t: 1
+  now: Assistant Professor @ XMU
+  number_educ: 0
+  education1: 
+
+- name: Dr. PAN Haoyuan
+  photo: haoyuan.jpg
+  pos_info: Postdoc
+  area: Network Coding, Industrial IoT, Age of Information, Low Latency Communications.
+  email: hypan[at]ie.cuhk.edu.hk
+  now_t: 1
+  now: Assistant Professor @ SZU
+  number_educ: 1
+  education1: BS (CUHK), PhD (CUHK) with Prof. LIEW Soung-chang
+  education2: 
+  education3:
+  education4:
+
+- name: Dr. YANG Qing
+  photo: yq.jpg
+  pos_info: Postdoc
+  area: Industrial IoT
+  email: yang.qing[at]hotmail.com
+  now_t: 1
+  now: Assistant Professor @ SZU
+  number_educ: 2
+  education1: BEng Huazhong University of Science and Technology
+  education2: PhD (CUHK) with Prof. LIEW Soung-chang
+  education3:
+  education4:
+
+- name: Dr. WANG Taotao
+  photo: wtt.jpg
+  pos_info: Postdoc
+  area: AI technique for wireless communications, Blockchain
+  email: postman511[at]gmail.com
+  now_t: 1
+  now: Associate Professor @ SZU
+  number_educ: 2
+  education1: Bachelor University of Electronic Science and Technology of China (UESTC) 
+  education2: PhD (CUHK) with Prof. LIEW Soung-chang
+  education3:

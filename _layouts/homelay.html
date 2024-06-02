@@ -1,0 +1,91 @@
+---
+layout: defaultHome
+---
+
+<!-- <div class="header-container jumbotron">
+  <div class="container">
+      <h1>Advanced Wireless Systems Group</h1>
+      <p>Welcome to the Advanced Wireless Systems Group</p>
+  </div>
+</div> -->
+<section id="hero">
+  <div class="hero-container">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background: url({{ site.url }}{{ site.baseurl }}/images/slider7001400/wireless2.jpg)">
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2 class="animate__animated animate__fadeInDown"><span>Advanced</span> Wireless Systems Group</h2>
+              <p class="animate__animated animate__fadeInUp">A group based in CUHK, focuses on both experimental and theoretical aspects of research related to wireless communications and network systems.              
+              </p>
+              <!-- <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <!-- <div class="carousel-item" style="background: url({{ site.url }}{{ site.baseurl }}/images/slider7001400/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2 class="animate__animated fanimate__adeInDown">AI-driven wireless communications system and wireless networks</h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Slide 3 -->
+        <!-- <div class="carousel-item" style="background: url({{ site.url }}{{ site.baseurl }}/images/slider7001400/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2 class="animate__animated animate__fadeInDown">Sequi ea <span>Dime Lara</span></h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+
+      <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a> -->
+
+    </div>
+  </div>
+</section><!-- End Hero -->
+<main id="main">
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div id="homeid" class="col-lg-10 pt-4 pt-lg-0 content">
+          {{ content }}
+        </div>
+        <div class="col-lg-1">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div id="newsid" class="col-lg-10 alert alert-dark">
+          {% include news.html %}
+        </div>
+        <div class="col-lg-1">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  

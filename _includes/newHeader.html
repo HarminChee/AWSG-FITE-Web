@@ -1,0 +1,30 @@
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">AWSG</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="{{ site.url }}{{ site.baseurl }}/images/logo-text.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/team.html">Team</a></li>		
+            <li><a href="{{ site.url }}{{ site.baseurl }}/publications.html">Publications</a></li>
+            <li class="dropdown"><a href="{{ site.url }}{{ site.baseurl }}/research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="{{ site.url }}{{ site.baseurl }}/research.html">AI-driven wireless systems</a></li>
+                  <li><a href="{{ site.url }}{{ site.baseurl }}/research.html">Networking for Blockchain</a></li>
+                  <li><a href="{{ site.url }}{{ site.baseurl }}/rpnc.html">Physical-layer Network Coding</a></li>
+                  <li><a href="{{ site.url }}{{ site.baseurl }}/rtts-sdr.html">Real-Time Time-slotted System on SDR</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">News</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
