@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Our group focuses on both experimental and theoretical aspects of research 
   related to wireless communications and network systems.
 baseurl: ""
-url: ""
+url: "https://wireless.ie.cuhk.edu.hk"
 
 include:
   - .htaccess
