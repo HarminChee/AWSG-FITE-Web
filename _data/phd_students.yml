@@ -10,30 +10,6 @@
   education4:  
   education5: 
 
-- name:  ZHANG Lihao
-  photo: lihao.jpg
-  info: From 09/2017 to present
-  area: Real-time Wireless Implementation, Field Programmable Gate Array (FPGA), Software-define Radio (SDR)
-  email:  lihaocuhk[at]gmail.com
-  number_educ: 2
-  education1: Bachelor Shenzhen University
-  education2: MSc(CUHK) with Prof. LIEW Soung-chang
-  education3: 
-  education4:  
-  education5: 
-
-- name:  <a href="https://gp-chen.github.io/Gongpu.Chen/">CHEN Gongpu</a>
-  photo: Gongpu.jpg
-  info: From 08/2019 to present 
-  area: Industrial IoT, Cyber physical systems
-  email:  gpchen[at]ie.cuhk.edu.hk
-  number_educ: 2
-  education1: Bachelor University of Electronic Science and Technology of China (UESTC)
-  education2: Master Southeast University
-  education3: 
-  education4:  
-  education5: 
-
 - name: YANG Qun
   photo: yangqun.jpg
   info: From 08/2020 to present 
@@ -61,3 +37,34 @@
   email: CuiHongwei1999[at]outlook.com
   number_educ: 1
   education1: Bachelor Shandong University
+
+- name: WANG Liujianfu
+  photo: liujianfu.jpg
+  info: From 8/2024 to present 
+  area: Generative AI for communication network
+  email: <1155157110[at]link.cuhk.edu.hk> 
+  number_educ: 1
+  education1: Bachelor The Chinese University of Hong Kong
+
+  - name: XU Shiqi
+  photo: shiqi.jpg
+  info: From 8/2024 to present 
+  area: Field Programmable Gate Array (FPGA), LLM for Software-define Radio (SDR)
+  email: <xs024[at]ie.cuhk.edu.hk>
+  number_educ: 1
+  education1: Bachelor Sun Yat-sen University
+
+  - name: ZHANG Feifan
+  photo: feifan.jpg
+  info: From 9/2024 to present 
+  area: Semantic Communication, Multimodal LLM
+  email: <zf024[at]ie.cuhk.edu.hk>
+  number_educ: 2
+  education1: Bachelor Nantong University
+  education2: Master University of Southampton
+  education3: 
+  education4:  
+  education5:
+
+  
+  
