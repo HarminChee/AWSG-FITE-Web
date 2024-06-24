@@ -209,3 +209,34 @@
   education1: Bachelor University of Electronic Science and Technology of China (UESTC) 
   education2: PhD (CUHK) with Prof. LIEW Soung-chang
   education3:
+
+- name: Dr. ZHANG Lihao
+  photo: lihao.jpg
+  pos_info: PhD@AWSG
+  duration_t: 1
+  duration: From 09/2017 to 04/2022
+  area: Real-time Wireless Implementation, Field Programmable Gate Array (FPGA), Software-define Radio (SDR)
+  email: lihaocuhk[at]gmail.com
+  now_t: 1
+  now: ASTRI Hong Kong
+  number_educ: 2
+  education1: Bachelor Shenzhen University
+  education2: MSc The Chinese University of Hong Kong
+  education3: 
+  education4:  
+  education5: 
+
+  - name: Dr. CHEN Gongpu
+  photo: Gongpu.jpg
+  pos_info: PhD@AWSG
+  duration_t: 1
+  duration: From 09/2019 to 08/2023
+  area: Industrial IoT, Cyber physical systems
+  email: gpchen[at]ie.cuhk.edu.hk
+  now_t: 1
+  now: Postdoctoral fellow @ Imperial College London
+  number_educ: 2
+  education1: Bachelor University of Electronic Science and Technology of China
+  education2: Master Southeast University
+  education3: 
+  
