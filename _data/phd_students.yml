@@ -42,23 +42,23 @@
   photo: liujianfu.jpg
   info: From 8/2024 to present 
   area: Generative AI for communication network
-  email: <1155157110[at]link.cuhk.edu.hk> 
+  email: 1155157110[at]link.cuhk.edu.hk
   number_educ: 1
   education1: Bachelor The Chinese University of Hong Kong
 
-  - name: XU Shiqi
+- name: XU Shiqi
   photo: shiqi.jpg
   info: From 8/2024 to present 
   area: Field Programmable Gate Array (FPGA), LLM for Software-define Radio (SDR)
-  email: <xs024[at]ie.cuhk.edu.hk>
+  email: xs024[at]ie.cuhk.edu.hk
   number_educ: 1
   education1: Bachelor Sun Yat-sen University
 
-  - name: ZHANG Feifan
+- name: ZHANG Feifan
   photo: feifan.jpg
   info: From 9/2024 to present 
   area: Semantic Communication, Multimodal LLM
-  email: <zf024[at]ie.cuhk.edu.hk>
+  email: zf024[at]ie.cuhk.edu.hk
   number_educ: 2
   education1: Bachelor Nantong University
   education2: Master University of Southampton
