@@ -212,7 +212,7 @@
 
 - name: Dr. ZHANG Lihao
   photo: lihao.jpg
-  pos_info: PhD@AWSG
+  pos_info: PhD
   duration_t: 1
   duration: From 09/2017 to 04/2022
   area: Real-time Wireless Implementation, Field Programmable Gate Array (FPGA), Software-define Radio (SDR)
@@ -228,7 +228,7 @@
 
   - name: Dr. CHEN Gongpu
   photo: Gongpu.jpg
-  pos_info: PhD@AWSG
+  pos_info: PhD
   duration_t: 1
   duration: From 09/2019 to 08/2023
   area: Industrial IoT, Cyber physical systems
