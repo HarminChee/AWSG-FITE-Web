@@ -1,4 +1,17 @@
-
+- name:  <a href="http://jiaxinliang.com">LIANG Jiaxin</a>
+  photo: jiaxin.jpeg
+  pos_info: PhD Student
+  duration_t: 1
+  duration: From 09/2015 to 11/2021 
+  area: Wireless Communications, Software-defined Radio, Industrial IoT Networks, 5G, URLLC
+  email:  jiaxin[at]ie.cuhk.edu.hk
+  number_educ: 1
+  education1: B.E The Chinese University of Hong Kong
+  education2: 
+  education3: 
+  education4:  
+  education5: 
+  
 - name: Dr. SHAO Yulin
   photo: syl.jpg
   pos_info: RA, PhD, Postdoc
