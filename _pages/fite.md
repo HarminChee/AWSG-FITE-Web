@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FITE
+permalink: /fite/
 ---
 
 <div class="container-fluid">
