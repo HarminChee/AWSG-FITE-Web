@@ -1,8 +1,9 @@
 ---
-layout: default
-title: FITE
+layout: textlay
+title: "FITE"
 permalink: /fite/
 markdown: kramdown
+sitemap: false
 ---
 
 <div class="container-fluid">
