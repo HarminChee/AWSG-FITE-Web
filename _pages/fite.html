@@ -2,6 +2,7 @@
 layout: default
 title: FITE
 permalink: /fite/
+markdown: kramdown
 ---
 
 <div class="container-fluid">
