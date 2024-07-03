@@ -97,18 +97,24 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#technical-sharing" onclick="showSection('technical-sharing')">2. Technical Sharing</a>
-            <ul>
-              <li><a class="nav-link" href="#share-1" onclick="showSection('share-1')">2.1 Share 1</a></li>
-              <li><a class="nav-link" href="#share-2" onclick="showSection('share-2')">2.2 Share 2</a></li>
-              <li><a class="nav-link" href="#share-3" onclick="showSection('share-3')">2.3 Share 3</a></li>
-            </ul>
+          </li>
+          <li class="nav-item sub-item">
+            <a class="nav-link" href="#share-1" onclick="showSection('share-1')">2.1 Share 1</a>
+          </li>
+          <li class="nav-item sub-item">
+            <a class="nav-link" href="#share-2" onclick="showSection('share-2')">2.2 Share 2</a>
+          </li>
+          <li class="nav-item sub-item">
+            <a class="nav-link" href="#share-3" onclick="showSection('share-3')">2.3 Share 3</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#llama-tutorial" onclick="showSection('llama-tutorial')">3. Llama Tutorial</a>
-            <ul>
-              <li><a class="nav-link" href="#deployment" onclick="showSection('deployment')">3.1 Deployment</a></li>
-              <li><a class="nav-link" href="#fine-tune" onclick="showSection('fine-tune')">3.2 Fine-tune</a></li>
-            </ul>
+          </li>
+          <li class="nav-item sub-item">
+            <a class="nav-link" href="#deployment" onclick="showSection('deployment')">3.1 Deployment</a>
+          </li>
+          <li class="nav-item sub-item">
+            <a class="nav-link" href="#fine-tune" onclick="showSection('fine-tune')">3.2 Fine-tune</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#gpt-programming-interface" onclick="showSection('gpt-programming-interface')">4. GPT Programming Interface</a></li>
@@ -147,7 +153,7 @@
           <p>...</p>
         </div>
         <div id="fine-tune" class="section">
-          <h3>3.2 Fine-tune</p>
+          <h3>3.2 Fine-tune</h3>
           <p>...</p>
         </div>
       </div>
@@ -179,11 +185,17 @@
   main {
     margin-left: 15%;
   }
-  #sidebar ul ul {
-    padding-left: 20px;
+  #sidebar ul {
+    padding-left: 0;
+  }
+  #sidebar .nav-item {
+    list-style: none;
   }
   .section {
     display: none;
+  }
+  .sub-item {
+    padding-left: 20px;
   }
 </style>
 
