@@ -10,73 +10,73 @@ permalink: /fite/
       <div class="position-sticky">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" href="#about-fite-program">1. About FITE Program</a>
+            <a class="nav-link active" href="#about-fite-program" onclick="showSection('about-fite-program')">1. About FITE Program</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#technical-sharing">2. Technical Sharing</a>
+            <a class="nav-link" href="#technical-sharing" onclick="showSection('technical-sharing')">2. Technical Sharing</a>
             <ul>
-              <li><a class="nav-link" href="#share-1">2.1 Share 1</a></li>
-              <li><a class="nav-link" href="#share-2">2.2 Share 2</a></li>
-              <li><a class="nav-link" href="#share-3">2.3 Share 3</a></li>
+              <li><a class="nav-link" href="#share-1" onclick="showSection('share-1')">2.1 Share 1</a></li>
+              <li><a class="nav-link" href="#share-2" onclick="showSection('share-2')">2.2 Share 2</a></li>
+              <li><a class="nav-link" href="#share-3" onclick="showSection('share-3')">2.3 Share 3</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#llama-tutorial">3. Llama Tutorial</a>
+            <a class="nav-link" href="#llama-tutorial" onclick="showSection('llama-tutorial')">3. Llama Tutorial</a>
             <ul>
-              <li><a class="nav-link" href="#deployment">3.1 Deployment</a></li>
-              <li><a class="nav-link" href="#fine-tune">3.2 Fine-tune</a></li>
+              <li><a class="nav-link" href="#deployment" onclick="showSection('deployment')">3.1 Deployment</a></li>
+              <li><a class="nav-link" href="#fine-tune" onclick="showSection('fine-tune')">3.2 Fine-tune</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gpt-programming-interface">4. GPT Programming Interface</a></li>
+            <a class="nav-link" href="#gpt-programming-interface" onclick="showSection('gpt-programming-interface')">4. GPT Programming Interface</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#qa">5. Q&A</a></li>
+            <a class="nav-link" href="#qa" onclick="showSection('qa')">5. Q&A</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">6. Contact</a></li>
+            <a class="nav-link" href="#contact" onclick="showSection('contact')">6. Contact</a></li>
         </ul>
       </div>
     </nav>
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      <div id="about-fite-program">
+      <div id="about-fite-program" class="section">
         <h2>1. About FITE Program</h2>
         <p>...</p>
       </div>
-      <div id="technical-sharing">
+      <div id="technical-sharing" class="section">
         <h2>2. Technical Sharing</h2>
-        <div id="share-1">
+        <div id="share-1" class="section">
           <h3>2.1 Share 1</h3>
           <p>...</p>
         </div>
-        <div id="share-2">
+        <div id="share-2" class="section">
           <h3>2.2 Share 2</h3>
           <p>...</p>
         </div>
-        <div id="share-3">
+        <div id="share-3" class="section">
           <h3>2.3 Share 3</h3>
           <p>...</p>
         </div>
       </div>
-      <div id="llama-tutorial">
+      <div id="llama-tutorial" class="section">
         <h2>3. Llama Tutorial</h2>
-        <div id="deployment">
+        <div id="deployment" class="section">
           <h3>3.1 Deployment</h3>
           <p>...</p>
         </div>
-        <div id="fine-tune">
-          <h3>3.2 Fine-tune</h3>
+        <div id="fine-tune" class="section">
+          <h3>3.2 Fine-tune</p>
           <p>...</p>
         </div>
       </div>
-      <div id="gpt-programming-interface">
+      <div id="gpt-programming-interface" class="section">
         <h2>4. GPT Programming Interface</h2>
         <p>...</p>
       </div>
-      <div id="qa">
+      <div id="qa" class="section">
         <h2>5. Q&A</h2>
         <p>...</p>
       </div>
-      <div id="contact">
+      <div id="contact" class="section">
         <h2>6. Contact</h2>
         <p>...</p>
       </div>
@@ -85,7 +85,36 @@ permalink: /fite/
 </div>
 
 <style>
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    z-index: 1;
+  }
+  main {
+    margin-left: 15%;
+  }
   #sidebar ul ul {
     padding-left: 20px;
   }
+  .section {
+    display: none;
+  }
 </style>
+
+<script>
+  function showSection(id) {
+    var sections = document.querySelectorAll('.section');
+    sections.forEach(function(section) {
+      section.style.display = 'none';
+    });
+    document.getElementById(id).style.display = 'block';
+  }
+
+  // Show the first section by default
+  document.addEventListener('DOMContentLoaded', function() {
+    showSection('about-fite-program');
+  });
+</script>
