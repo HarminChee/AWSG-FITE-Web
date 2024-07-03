@@ -6,6 +6,7 @@ markdown: kramdown
 sitemap: false
 ---
 
+{% raw %}
 <div class="container-fluid">
   <div class="row">
     <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
@@ -91,3 +92,4 @@ sitemap: false
     padding-left: 20px;
   }
 </style>
+{% endraw %}
