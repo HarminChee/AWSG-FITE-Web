@@ -42,6 +42,5 @@ projects:
         has_photo: 1
         description: >
           AoI is motivated by the fact that in many modern communications and control systems, particularly those used to support remote industrial processes, automation, and IoT applications, what fundamentally matters is not throughput or delay; instead, it is the freshness of information collected from the remote processes that counts. Importantly, AoI as a performance measure is related to, but yet distinct from, the low latency requirement in 5G Ultra-Reliable Low Latency Communication (URLLC). For AoI, the rate at which the information from the remote process ages also matters, not just the latency induced by the communication system.
-         
          UoI, the performance metric of focus in this project, is a twist to AoI. We argue that the freshness of information is not necessarily related to the age of the information, just like some food goes stale quickly while other food remains fresh for a long time. If we know the “coherence time” of the remote processes, we can make better decisions on when to collect information from them, allowing efficient utilization of the underlying communication and computing resources to ensure the freshness of information at a monitoring center.
         has_link: 0
