@@ -37,7 +37,7 @@ projects:
 
   - category: AI-driven Wireless Networking
     items:
-      - name: Uncertainty-of-information Scheduling
+      - name: Uncertainty of information Scheduling
         photo: UoI-AoI.jpg
         has_photo: 1
         description: >
