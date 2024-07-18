@@ -10,23 +10,24 @@ The flavor of the research in our group is one that mixes experiments with theor
 
 ----------------------------
 {% assign number_printed = 0 %}
-{% for project in site.data.research_projects %}
-<div class="row">
-{% assign even_odd = number_printed | modulo: 2 %}
-  <div class="col-md-6">
-  <h3><b>{{ project.name }}</b></h3>
-  {{ project.description }}<br>
-  {% if project.has_link == 1%}
-  <a href="{{ site.url }}{{ site.baseurl }}/{{ project.link }}">Link</a>
-  {% endif %}
+{% for category in site.data.research_projects %}
+  <h2 class="text-center"><b>{{ category.category }}</b></h2>
+  {% for project in category.items %}
+  <div class="row">
+    <div class="col-md-6">
+      {% if project.has_photo == 1 %}
+      <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ project.photo }}" class="img-responsive" width="100%"/>
+      {% endif %}
+    </div>
+    <div class="col-md-6">
+      <h3 class="text-center"><b>{{ project.name }}</b></h3>
+      {{ project.description }}<br>
+      {% if project.has_link == 1 %}
+      <a href="{{ site.url }}{{ site.baseurl }}/{{ project.link }}" class="btn btn-primary">Read more</a>
+      {% endif %}
+    </div>
   </div>
-  <div class="col-md-6">
-  {% if project.has_photo == 1%}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ project.photo }}" class="img-responsive" width="100%"/>
-  {% endif %}
-  </div>
-</div>
-----------------------------
-
-{% assign number_printed = number_printed | plus: 1 %}
+  <hr>
+  {% assign number_printed = number_printed | plus: 1 %}
+  {% endfor %}
 {% endfor %}
