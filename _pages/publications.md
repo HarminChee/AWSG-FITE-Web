@@ -12,8 +12,10 @@ permalink: /publications.html
 - [Recent Publications](#recent-publications)
   - [Journals](#journals)
   - [Conference](#conference)
+  - [Pre-print](#Pre-print)
 - [Books](#books)
 - [Papers](#papers)
+  - [AI for wireless communication and Networking](#AI for wireless communication and Networking)
   - [Physical-Layer Network Coding](#physical-layer-network-coding)
   - [Wireless Communications and Networking](#wireless-communications-and-networking)
   - [Transport and Network Layers for Wireless Networks](#transport-and-network-layers-for-wireless-networks)
@@ -234,6 +236,36 @@ accepted by IEEE Trans. on Wireless Commun., available as early access, DOI 10.1
    Y. Yu, S. C. Liew, T. Wang,
    IEEE WCNC International Workshop on Smart Spectrum, Apr. 2019.
 
+### Pre-Print
+
+1. Llmind: Orchestrating ai and iot with llms for complex task execution,
+   H. Cui, Y. Du, Q.Yang, Y. Shao, S. C. Liew,
+   arXiv preprint arXiv:2312.09007, Dec. 2023.
+
+2. The power of large language models for wireless communication system development: A case study on fpga platforms,
+   Y. Du, S. C. Liew, K. Chen, Y. Shao,
+   arXiv preprint arXiv:2307.07319, Jul. 2023.
+
+3. Reliable Packet Detection for Random Access Networks: Analysis, Benchmark, and Optimization,
+   Y. Du, S. C. Liew,
+   arXiv preprint arXiv:2307.05224, Jul. 2023.
+
+4. Intermittently Observable Markov Decision Processes,
+   G Chen, S. C. Liew,
+   arXiv preprint arXiv:2302.11761, Feb. 2023.
+
+5. Linking Souls to Humans with ZKBID: Accountable Anonymous Blockchain Accounts for Web 3.0 Decentralized Identity,
+   T. Wang, S. Zhang, S. C. Liew,
+   arXiv preprint arXiv:2301.02102, Jan. 2023.
+
+6. ROFA: An OFDMA system for ultra-reliable wireless industrial networking,
+   J. Liang, S. C. Liew,
+   arXiv preprint arXiv:2109.00979, Sep. 2021.
+
+7. Speeding up block propagation in blockchain network: Uncoded and coded designs,
+   L. Zhang, T. Wang, S. C. Liew,
+   arXiv preprint arXiv:2101.00378, Jan. 2021.
+
 ---
 
 ## Books
@@ -248,6 +280,12 @@ accepted by IEEE Trans. on Wireless Commun., available as early access, DOI 10.1
 ---
 
 ## Papers
+
+### AI for wireless communication and Networking
+
+<p>[1]   Channel Decoding and Nonbinary Physical-Layer Network Coding in Two-Way Relay Systems,
+P. Chen, L. Shi, S. C. Liew, Y. Fang, K. Cai,
+IEEE Trans. on Vehicular Technology, vol. 68, no. 1, pp. 628-640, Jan. 2019.</p>
 
 ### Physical-Layer Network Coding
 
