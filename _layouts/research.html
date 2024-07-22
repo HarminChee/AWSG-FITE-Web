@@ -1,6 +1,272 @@
----
-layout: default
----
-<div id="research" class="col-sm-12">
-  {{ content }}
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research Projects</title>
+    <meta name="description" content="AWSG -- Research projects">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/newmain.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="canonical" href="/research.html">
+    <link rel="icon" type ="image/x-icon" href="/images/favicon.ico">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KPVC02E75"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0KPVC02E75');
+</script>
+  
+</head>
+  
+
+  <body>
+
+    <!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">AWSG</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="/images/logo-text.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/team.html">Team</a></li>		
+            <li><a href="/publications.html">Publications</a></li>
+            <li class="dropdown"><a href="/research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="/research.html#iiot">Industrial Wireless Networks for IIoT</a></li>
+                  <li><a href="/research.html#blockchain">Networking for Blockchain</a></li>
+                  <li><a href="/research.html#ai">AI-driven wireless systems</a></li>
+                </ul>
+            </li>
+            <li><a href="/allnews.html">News</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+    <!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs" style="background: url(/images/slider7001400/circuit_trans_cut.jpg); background-color: rgba(120, 120, 120, 0.5);">
+    <div class="container">
+
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Research Projects</li>
+      </ol>
+      <h2>Research Projects</h2>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+    <main id="main" style="margin-top: 15px;">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-2">
+              </div>
+              <div class="col-lg-8">
+                  <div id="gridid" class="col-lg-12">
+  <div class="alert alert-secondary" role="alert">
+  <p>The flavor of the research in our group is one that mixes experiments with theories. We like to look for interesting and practically relevant theoretical problems to solve from our experimental results.</p>
 </div>
+
+<p><br /></p>
+
+<blockquote class="blockquote text-center" id="iiot">
+  <h1 class="mb-0"><b>Industrial Wireless Network for IIoT</b></h1>
+</blockquote>
+
+<div class="card text-dark bg-light">
+  <h4 class="card-header"><b>Real-Time Time-slotted System on SDR (RTTS-SDR)</b></h4>
+  <div class="card-body">
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <p><img src="/images/respic/rtts_sdr.jpg" class="img-fluid" width="95%" /></p>
+
+      </div>
+      <div class="col-md-6">
+        <p class="card-text">RTTS-SDR is a system that we implemented on PC-USRP using GNURadio. It can achieve synchronization among nodes and aligned their time slots to within 100ns, and the end-to-end latency can be down to 3.75ms.</p>
+
+        <p><a href="/rtts-sdr.html" class="btn btn-primary animate__animated animate__fadeInUp" role="button">Read more</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card text-dark bg-light">
+  <h4 class="card-header"><b>A Just-In-Time Networking Framework for Minimizing Request-Response Latency of Wireless Time-Sensitive Applications</b></h4>
+  <div class="card-body">
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <p><img src="/images/respic/JIT/JIT-frontpage.jpg" class="img-fluid" width="95%" /></p>
+
+      </div>
+      <div class="col-md-6">
+        <p class="card-text">This project puts forth a networking paradigm, referred to as just-in-time (JIT) communication, to support client-server applications with stringent request-response latency requirement. Of interest is not just the round-trip delay of the network, but the actual request-response latency experienced by the application.</p>
+
+        <p><a href="/jit.html" class="btn btn-primary animate__animated animate__fadeInUp" role="button">Read more</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card text-dark bg-light">
+  <h4 class="card-header"><b>Physical-layer Network Coding (PNC)</b></h4>
+  <div class="card-body">
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <p><img src="/images/respic/pncRelay.png" class="img-fluid" width="95%" /></p>
+
+      </div>
+      <div class="col-md-6">
+        <p class="card-text">PNC is about applying the principle of NC by allowing EM waves to add up physically in a wireless broadcast situation. we provide a real-time implemnetation of PNC in this project. Details of the Source code of RPNC can be found in the project page.</p>
+
+        <p><a href="/rpnc.html" class="btn btn-primary animate__animated animate__fadeInUp" role="button">Read more</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<p><br /></p>
+
+<blockquote class="blockquote text-center" id="blockchain">
+  <h1 class="mb-0"><b>Networking for Blockchain</b></h1>
+</blockquote>
+
+<div class="card text-dark bg-light">
+  <h4 class="card-header"><b>Speeding up Block Propagation in Bitcoin Network: Uncoded and Coded Designs</b></h4>
+  <div class="card-body">
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <p><img src="/images/respic/speed/Speed_Fig_1.jpg" class="img-fluid" width="95%" /></p>
+
+      </div>
+      <div class="col-md-6">
+        <p class="card-text">In this work, we redesign the current Bitcoin’s networking protocol to increase TPS without changing vital components in its consensus-building protocol. In particular, we improve the compact-block relaying protocol to enable the propagation of blocks containing a massive number of transactions without inducing extra propagation latencies. Our improvements consist of (i) replacing the existing store-and-forward compact-block relaying scheme with a cut-through compact-block relaying scheme; (ii) exploiting rateless erasure codes for P2P networks to increase block-propagation efficiency.</p>
+
+        <p><a href="/speed.html" class="btn btn-primary animate__animated animate__fadeInUp" role="button">Read more</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<p><br /></p>
+
+<blockquote class="blockquote text-center" id="ai">
+  <h1 class="mb-0"><b>AI-driven Wireless Networking</b></h1>
+</blockquote>
+
+<div class="card text-dark bg-light">
+  <h4 class="card-header"><b>Uncertainty-of-information Scheduling</b></h4>
+  <div class="card-body">
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <p><img src="/images/respic/UoI-AoI.jpg" class="img-fluid" width="95%" /></p>
+
+      </div>
+      <div class="col-md-6">
+        <p class="card-text">AoI is motivated by the fact that in many modern communications and control systems, particularly those used to support remote industrial processes, automation, and IoT applications, what fundamentally matters is not throughput or delay; instead, it is the freshness of information collected from the remote processes that counts. Importantly, AoI as a performance measure is related to, but yet distinct from, the low latency requirement in 5G Ultra-Reliable Low Latency Communication (URLLC) .  For AoI, the rate at which the information from the remote process ages also matters, not just the latency induced by the communication system. <br /><br /> UoI, the performance metric of focus in this project, is a twist to AoI. We argue that the freshness of information is not necessarily related to the age of the information, just like some food goes stale quickly while other food remains fresh for a long time. If we know the “coherence time” of the remote processes, we can make better decisions on when to collect information from them, allowing efficient utilization of the underlying communication and computing resources to ensure the freshness of information at a monitoring center. </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+              </div>
+              <div class="col-lg-2">
+              </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer id="footer">
+  <div class="footer-top">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+			  We are part of the <a href="https://www.ie.cuhk.edu.hk/main/index.shtml">IE Department</a> <br/>
+				at <a href="http://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>.
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		  Location:<br />
+		  Rm729, SHB<br />
+		  The Chinese University of Hong Kong<br />
+		  Shatin, H.K.<br />		  
+            (<a href="https://goo.gl/maps/6gDa8HKdC8TTGoQCA">Maps</a>)
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="container">
+	<div class="credits">
+		Designed by Jiaxin and generated by Jekyll.
+	</div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="/js/bootstrap.min.js"></script> -->
+
+    <!-- Vendor JS Files -->
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+<script src="/assets/vendor/purecounter/purecounter.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/assets/js/main.js"></script>
+
+  </body>
+
+</html>
