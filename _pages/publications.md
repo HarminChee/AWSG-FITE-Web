@@ -15,7 +15,7 @@ permalink: /publications.html
   - [Pre-print](#Pre-print)
 - [Books](#books)
 - [Papers](#papers)
-  - [AI for wireless communication and Networking](#AI for wireless communication and Networking)
+  - [AI for Wireless Communication and Networking](#AI-for-wireless-communication-and-Networking)
   - [Physical-Layer Network Coding](#physical-layer-network-coding)
   - [Wireless Communications and Networking](#wireless-communications-and-networking)
   - [Transport and Network Layers for Wireless Networks](#transport-and-network-layers-for-wireless-networks)
@@ -236,7 +236,7 @@ accepted by IEEE Trans. on Wireless Commun., available as early access, DOI 10.1
    Y. Yu, S. C. Liew, T. Wang,
    IEEE WCNC International Workshop on Smart Spectrum, Apr. 2019.
 
-### Pre-Print
+### Pre-print
 
 1. Llmind: Orchestrating ai and iot with llms for complex task execution,
    H. Cui, Y. Du, Q.Yang, Y. Shao, S. C. Liew,
@@ -281,13 +281,113 @@ accepted by IEEE Trans. on Wireless Commun., available as early access, DOI 10.1
 
 ## Papers
 
-### AI for wireless communication and Networking
+### AI for Wireless Communication and Networking
 
-<p>[1]   Channel Decoding and Nonbinary Physical-Layer Network Coding in Two-Way Relay Systems,
-P. Chen, L. Shi, S. C. Liew, Y. Fang, K. Cai,
-IEEE Trans. on Vehicular Technology, vol. 68, no. 1, pp. 628-640, Jan. 2019.</p>
+<p>Hyperclique: A Novel P2P Network Structure for Blockchain Systems,
+X. You, S. Zhang, T. Wang, S. C. Liew,
+IEEE 2024 International Conference on Computing, Networking and Communications (ICNC), pp. 804-809, Feb. 2024.<p>
+
+Denoising noisy neural networks: A bayesian approach with compensation,
+Y. Shao, S. C. Liew, D. Gündüz,
+IEEE Transactions on Signal Processing, PP(99):1-14, Jun. 2023
+
+Efficient FFT computation in IFDMA transceivers,
+Y. Du, S. C. Liew, Y. Shao,
+IEEE Transactions on Wireless Communications vol. 22, no. 10, pp. 6594-6607, Feb. 2023.
+
+Bayesian over-the-air computation,
+Y. Shao, D. Gündüz, S. C. Liew,
+IEEE Journal on Selected Areas in Communications vol. 41, no. 3, pp. 589-606, Dec. 2022.
+
+A just-in-time networking framework for minimizing request-response latency of wireless time-sensitive applications,
+L. Zhang, S. C. Liew, H. Chen,
+IEEE Internet of Things Journal vol. 10, no. 8, pp. 7126-7142, Dec. 2022.
+
+Reliable Wireless Networking via Soft-Source Information Combining,
+L. Zhang, S. C. Liew,
+IEEE Internet of Things Journal vol. 10, no. 6, pp. 4970-4984, Nov. 2022.
+
+Uncertainty-of-information scheduling: A restless multiarmed bandit framework,
+G. Chen, S. C. Liew, Y. Shao,
+IEEE Transactions on Information Theory vol. 68, no. 9, pp. 6151-6173, Nov. 2022.
+
+Federated edge learning with misaligned over-the-air computation,
+Y. Shao, D. Gündüz, S. C. Liew,
+IEEE Transactions on Wireless Communications vol. 21, no. 6, pp. 3951-3964, Nov. 2021.
+
+Deep learning for joint noncoherent differential detection and channel decoding,
+W. Xu, L. Zhang, T. Wang, S. C. Liew,
+2021 IEEE/CIC International Conference on Communications in China (ICCC), pp. 589-594, Jul. 2021.
+
+Design and implementation of time-sensitive wireless IoT networks on software-defined radio,
+J. Liang, H. Chen, S. C. Liew,
+IEEE Internet of Things Journal vol. 9, no. 3, pp. 2361-2374, Jul. 2021.
+
+Flow sampling: Network monitoring in large-scale software-defined IoT networks,
+Y. Shao, S. C. Liew, H. Chen, Y. Du,
+IEEE Transactions on Communications vol. 69, no. 9, pp. 6120-6133, Jul. 2021.
+
+Multi-agent deep reinforcement learning multiple access for heterogeneous wireless networks with imperfect channels,
+Y. Yu, S. C. Liew, T. Wang,
+IEEE Transactions on Mobile Computing vol. 21, no. 10, pp. 3718-3730, Feb. 2021.
+
+Age-of-information dependent random access for massive IoT networks,
+H. Chen, Y. Gu, S. C. Liew,
+IEEE INFOCOM 2020-IEEE Conference on Computer Communications Workshops pp. 930-935, Jul. 2020.
+
+Timely information update with nonorthogonal multiple access,
+H. Pan, J. Liang, S. C. Liew, VCM. Leung, J. Li,
+IEEE Transactions on Industrial Informatics vol. 17, no. 6, pp. 4096-4106, Jun. 2020.
+
+Significant sampling for shortest path routing: A deep reinforcement learning solution,
+Y. Shao, A. Rezaee, S. C. Liew, VWS. Chan,
+IEEE Journal on Selected Areas in Communications vol. 38, no. 10, pp. 2234-2248, Jun. 2020.
+
+Non-uniform time-step deep Q-network for carrier-sense multiple access in heterogeneous wireless networks,
+Y. Yu, S. C. Liew, T. Wang,
+IEEE Transactions on Mobile Computing vol. 20, no. 9, pp. 2848-2861, Apr. 2020.
+
+AlphaSeq: Sequence discovery with deep reinforcement learning,
+Y. Shao, S. C. Liew, T. Wang,
+IEEE Transactions on Neural Networks and Learning Systems vol. 31, no. 9, pp. 3319-3333, Oct. 2019.
+
+Deep learning for joint MIMO detection and channel decoding,
+T. Wang, L. Zhang, S. C. Liew,
+2019 IEEE 30th Annual International Symposium on Personal, IIndoor and Mobile Radio Communications (PIMRC) pp. 1-7, Sep. 2019.
+
+<p>[1]  Sparsity Learning Based Multiuser Detection in Grant-Free Massive-Device Multiple Access,
+T. Ding, X. Yuan, S. C. Liew,
+accepted by IEEE Trans. on Wireless Commun., available as early access, May. 2019.</p>
+
+<p>[2]  Deep-Reinforcement Learning Multiple Access for Heterogeneous Wireless Networks,
+Y. Yu, T. Wang, S. C. Liew,
+IEEE J. on Selected Areas in Commun., vol. 37, no. 6, pp. 1277-1290, Jun.  2019.</p>
+
+<p>[3]  Algorithmic Beamforming Design for MIMO Multiway Relay Channel with Clustered Full Data Exchange,
+T. Ding, X. Yuan, S. C. Liew,
+IEEE Trans. on Vehicular Technology, vol. 67, no, 10, pp. 10081-10086, July 2018.</p>
+
+<p>[5]  Design of Distributed Protograph LDPC Codes for Multi-Relay Coded-Cooperative Networks,
+Y. Fang, S. C. Liew, T. Wang,
+IEEE Trans. on Wireless Communications, vol. 16, no. 11, pp. 7235-7251, Nov. 2017.</p>
+
+<p>[6]  Practical Power-Balanced Non-Orthogonal Multiple Access,
+H. Pan, L. Lu, S. C. Liew,
+IEEE J. on Selected Areas in Commun., vol. 35, no. 10, pp. 2312-2327, Oct. 2017.</p>
 
 ### Physical-Layer Network Coding
+
+Implementation of short-packet physical-layer network coding,
+S. S. Ullah, S. C. Liew, G. Liva, T. Wang,
+IEEE transactions on mobile computing vol. 22, no. 1, pp. 284-298, Apr. 2021.
+
+Short-packet physical-layer network coding,
+S. S. Ullah, S. C. Liew, G. Liva, T. Wang,
+IEEE Transactions on Communications vol. 68, no. 2, pp. 737-751,  Dec. 2019.
+
+Coherent detection for short-packet physical-layer network coding with binary FSK modulation,
+Z. Wang, S. C. Liew,
+IEEE Transactions on Wireless Communications vol. 19, no. 1, pp. 279-292,  Oct. 2019.
 
 <p>[1]   Channel Decoding and Nonbinary Physical-Layer Network Coding in Two-Way Relay Systems,
 P. Chen, L. Shi, S. C. Liew, Y. Fang, K. Cai,
@@ -548,6 +648,70 @@ ACM Mobicom 2006, Sept 2006.</p>
 ---
 
 ### Wireless Communications and Networking
+
+<p>Hyperclique: A Novel P2P Network Structure for Blockchain Systems,
+X. You, S. Zhang, T. Wang, S. C. Liew,
+IEEE 2024 International Conference on Computing, Networking and Communications (ICNC), pp. 804-809, Feb. 2024.<p>
+
+Account service network: a unified decentralized web 3.0 portal with credible anonymity,
+T. Wang, S. Zhang, Q. Yang, S. C. Liew,
+IEEE Network, Oct. 2023. 
+
+HCB: enabling compact block in ethereum network with secondary pool and transaction prediction,
+C. Zhao, T. Wang, S. Zhang, S. C. Liew,
+IEEE Transactions on Network Science and Engineering	pp. 1.	Oct. 2023.
+
+An index policy for minimizing the uncertainty-of-information of Markov sources,
+G. Chen, S. C. Liew,
+IEEE Transactions on Information Theory, Sep. 2023. 
+
+Periodic Transmissions in Random Access Networks: Stressed Period and Delay,
+G. Chen, L. Zhang, S. C. Liew,
+IEEE Transactions on Communications vol. 71, no. 7, pp. 4119-4132. Mar. 2023. 
+
+Efficient FFT computation in IFDMA transceivers,
+Y. Du, S. C. Liew, Y. Shao,
+IEEE Transactions on Wireless Communications vol. 22, no. 10, pp. 6594-6607. Feb. 2023. 
+
+Speeding up block propagation in Bitcoin network: Uncoded and coded designs,
+L. Zhang, T. Wang, S. C. Liew,
+Computer Networks no. 206, pp. 108791. Apr. 2022. 
+
+Ethna: Analyzing the underlying peer-to-peer network of ethereum blockchain,
+T. Wang, C. Zhao, Q. Yang, S. Zhang, S. C. Liew,
+IEEE Transactions on Network Science and Engineering vol. 8, no. 3, pp. 2131-2146. May. 2021.
+
+When blockchain meets AI: Optimal mining strategy achieved by machine learning,
+T. Wang, S. C. Liew, S. Zhang,
+International Journal of Intelligent Systems vol. 36, no. 5, pp. 2183-2207. May. 2021.
+
+Implementation of short-packet physical-layer network coding,
+S. S. Ullah, S. C. Liew, G. Liva, T. Wang,
+IEEE transactions on mobile computing vol. 22, no. 1, pp. 284-298.	Apr. 2021.
+
+Coding of multi-source information streams with age of information requirements,
+H. Pan, S. C. Liew, J. Liang, VCM. Leung, J. Li,
+IEEE Journal on Selected Areas in Communications vol. 39, no. 5, pp. 1427-1440. Mar. 2021.
+
+Practical NOMA-based coordinated direct and relay transmission,
+H. Pan, J. Liang, S. C. Liew,
+IEEE Wireless Communications Letters vol. 10, no. 1, pp. 170-174. Sep. 2020.  
+
+New transceiver designs for interleaved frequency-division multiple access,
+S. C. Liew, Y. Shao,
+IEEE Transactions on Wireless Communications vol. 19, no. 12, pp. 765-7778. Aug. 2020.
+
+Flexible subcarrier allocation for interleaved frequency division multiple access,
+Y. Shao, S. C. Liew,
+IEEE Transactions on Wireless Communications vol. 19, no. 11, pp. 7139-7152. Jul. 2020.  
+
+Game-theoretical analysis of mining strategy for bitcoin-ng blockchain protocol,
+T. Wang, X. Bai, H. Wang, S. C. Liew, S. Zhang,
+IEEE Systems Journal vol. 15, no. 2, pp. 2708-2719. Jul.2020.  
+
+Information update: TDMA or FDMA?
+H. Pan, S. C. Liew,
+IEEE Wireless Communications Letters vol. 9, no. 6, pp. 856-860. Feb. 2020. 
 
 <p>[1]  Sparsity Learning Based Multiuser Detection in Grant-Free Massive-Device Multiple Access,
 T. Ding, X. Yuan, S. C. Liew,
