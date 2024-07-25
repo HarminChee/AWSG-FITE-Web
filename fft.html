@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FFT</title>
+    <meta name="description" content="AWSG -- FFT">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/newmain.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="canonical" href="/fft.html">
+    <link rel="icon" type ="image/x-icon" href="/images/favicon.ico">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KPVC02E75"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0KPVC02E75');
+</script>
+  
+</head>
+  
+
+  <body>
+
+    <!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">AWSG</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="/images/logo-text.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/team.html">Team</a></li>		
+            <li><a href="/publications.html">Publications</a></li>
+            <li class="dropdown"><a href="/research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="/research.html#ai">AI-driven wireless systems</a></li>
+                  <li><a href="/research.html#iiot">Industrial Wireless Networks for IIoT</a></li>
+                  <li><a href="/research.html#blockchain">Networking for Blockchain</a></li>
+                </ul>
+            </li>
+            <li><a href="/allnews.html">News</a></li>
+	    <li><a href="{{ site.url }}{{ site.baseurl }}/fite/" target="_blank">FITE</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+    <!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs" style="background: url(/images/slider7001400/circuit_trans_cut.jpg); background-color: rgba(120, 120, 120, 0.5);">
+    <div class="container">
+
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Efficient FFT</li>
+      </ol>
+      <h2>Efficient FFT</h2>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+    <main id="main" style="margin-top: 15px;">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-2">
+              </div>
+              <div class="col-lg-8">
+                  <div id="textid" class="col-lg-12">
+  <h1 id="Efficient-FFT-Computation-in-IFDMA-Transceivers">Efficient-FFT-Computation-in-IFDMA-Transceivers</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p><img src="/images/respic/_fft/fft.png" class="img-responsive" width="100%" /></p>
+
+<p>Interleaved Frequency Division Multiple Access (IFDMA) has the salient advantage of lower Peak-to-Average Power Ratio (PAPR) than its competitors like Orthogonal FDMA (OFDMA). A recent research effort of ours put forth a new IFDMA transceiver design significantly less complex than conventional IFDMA transceivers. The new IFDMA transceiver design reduces the complexity by exploiting a certain correspondence between the IFDMA signal processing and the Cooley-Tukey IFFT/FFT algorithmic structure so that IFDMA streams can be inserted/extracted at different stages of an IFFT/FFT module according to the sizes of the streams. Although our prior work has laid down the theoretical foundation for the new IFDMA transceiver’s structure, the practical realization of the transceiver on specific hardware with resource constraints has not been carefully investigated. This paper is an attempt to fill the gap. Specifically, this paper puts forth a heuristic algorithm called multi-priority scheduling (MPS) to schedule the execution of the butterfly computations in the IFDMA transceiver with the constraint of a limited number of hardware processors. The resulting FFT computation, referred to as MPS-FFT, has a much lower computation time than conventional FFT computation when applied to the IFDMA signal processing. Importantly, we derive a lower bound for the optimal IFDMA FFT computation time to benchmark MPS-FFT. Our experimental results indicate that when the number of hardware processors is a power of two: </P>
+
+<p>1. MPS-FFT has near-optimal computation time; </p>
+
+<p>2. MPS-FFT incurs less than 44.13% of the computation time of the conventional pipelined FFT.</p>
+
+<hr>
+			  
+<h2 id="Details">Details</h2>
+
+<p>This paper studied the FFT implementation of an efficient IFDMA transceiver, referred to as compact IFDMA, put forth by a recent investigation. For compact IFDMA, not all butterfly computations inside the full FFT network need to be executed, and the necessary computations vary with different subcarrier allocations. When applied to IFDMA, conventional FFT implementation is resource-wasteful because it does not exploit this specific property of IFDMA signal processing.</p>
+
+<p>This paper focused on FFT implementations tailored for IFDMA. We put forth a flexible heuristic algorithm to schedule the butterfly computations in IFDMA FFT, referred to as multi-priority scheduling (MPS). Compared with conventional FFT implementations, the FFT computation schedule obtained by MPS, referred to as MPS-FFT, has two advantages: 1. MPS-FFT reduces computation requirements. For example, for 1024-subcarrier IFDMA, MPS-FFT can bypass at least 11.21% of the computation tasks in FFT. 2. MPS-FFT utilizes hardware efficiently. For example, for 1024-subcarrier IFDMA, the processor utilization rate in MPS-FFT is 99.82%, much higher than the processor utilization rate in conventional pipeline FFT.</p>
+
+<p>When the number of available processors is a power of two, MPS-FFT has near-optimal computation-time performance. Quantitatively, MPS-FFT subject to a randomly selected IFDMA subcarrier allocation can reach the computation time lower bound with a probability larger than 0,05^[1/(x-1)], where x is more than 2.5 million in our experiment. Furthermore, MPS-FFT incurs less than 44.13% of the computation time of the conventional pipelined FFT.</p>
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <p><img src="/images/respic/_fft/result1.png" class="img-responsive" width="100%" /></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/images/respic/_rpd/result2.png" class="img-responsive" width="100%" /></p>
+  </div>
+</div>
+
+<hr>
+
+<h2 id="more-information">For more information</h2>
+
+<p>For more details, please see our <a href="https://ieeexplore.ieee.org/abstract/document/10049776/" target="_blank">paper</a>.</p>
+
+</div>
+
+              </div>
+              <div class="col-lg-2">
+              </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer id="footer">
+  <div class="footer-top">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+			  We are part of the <a href="https://www.ie.cuhk.edu.hk/main/index.shtml">IE Department</a> <br/>
+				at <a href="http://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>.
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		  Location:<br />
+		  Rm729, SHB<br />
+		  The Chinese University of Hong Kong<br />
+		  Shatin, H.K.<br />		  
+            (<a href="https://goo.gl/maps/6gDa8HKdC8TTGoQCA">Maps</a>)
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="container">
+	<div class="credits">
+		Designed by Jiaxin and generated by Jekyll.
+	</div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="/js/bootstrap.min.js"></script> -->
+
+    <!-- Vendor JS Files -->
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+<script src="/assets/vendor/purecounter/purecounter.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/assets/js/main.js"></script>
+
+  </body>
+
+</html>
