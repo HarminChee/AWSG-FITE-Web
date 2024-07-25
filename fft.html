@@ -97,7 +97,7 @@
 
 <h2 id="overview">Overview</h2>
 
-<p><img src="/images/respic/_fft/fft.png" class="img-responsive" width="100%" /></p>
+<p><img src="/images/respic/fft.png" class="img-responsive" width="100%" /></p>
 
 <p>Interleaved Frequency Division Multiple Access (IFDMA) has the salient advantage of lower Peak-to-Average Power Ratio (PAPR) than its competitors like Orthogonal FDMA (OFDMA). A recent research effort of ours put forth a new IFDMA transceiver design significantly less complex than conventional IFDMA transceivers. The new IFDMA transceiver design reduces the complexity by exploiting a certain correspondence between the IFDMA signal processing and the Cooley-Tukey IFFT/FFT algorithmic structure so that IFDMA streams can be inserted/extracted at different stages of an IFFT/FFT module according to the sizes of the streams. Although our prior work has laid down the theoretical foundation for the new IFDMA transceiver’s structure, the practical realization of the transceiver on specific hardware with resource constraints has not been carefully investigated. This paper is an attempt to fill the gap. Specifically, this paper puts forth a heuristic algorithm called multi-priority scheduling (MPS) to schedule the execution of the butterfly computations in the IFDMA transceiver with the constraint of a limited number of hardware processors. The resulting FFT computation, referred to as MPS-FFT, has a much lower computation time than conventional FFT computation when applied to the IFDMA signal processing. Importantly, we derive a lower bound for the optimal IFDMA FFT computation time to benchmark MPS-FFT. Our experimental results indicate that when the number of hardware processors is a power of two: </P>
 
@@ -118,10 +118,10 @@
 
 <div class="row">
   <div class="col-sm-6">
-    <p><img src="/images/respic/_fft/result1.png" class="img-responsive" width="100%" /></p>
+    <p><img src="/images/respic/fft_result1.png" class="img-responsive" width="100%" /></p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/images/respic/_rpd/result2.png" class="img-responsive" width="100%" /></p>
+    <p><img src="/images/respic/fft_result2.png" class="img-responsive" width="100%" /></p>
   </div>
 </div>
 
