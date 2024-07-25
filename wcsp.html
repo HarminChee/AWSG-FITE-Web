@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LLM for WCSD</title>
+    <meta name="description" content="AWSG -- LLM for WCSD">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/newmain.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="canonical" href="/wcsp.html">
+    <link rel="icon" type ="image/x-icon" href="/images/favicon.ico">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KPVC02E75"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0KPVC02E75');
+</script>
+  
+</head>
+  
+
+  <body>
+
+    <!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">AWSG</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="/images/logo-text.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/team.html">Team</a></li>		
+            <li><a href="/publications.html">Publications</a></li>
+            <li class="dropdown"><a href="/research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="/research.html#ai">AI-driven wireless systems</a></li>
+                  <li><a href="/research.html#iiot">Industrial Wireless Networks for IIoT</a></li>
+                  <li><a href="/research.html#blockchain">Networking for Blockchain</a></li>
+                </ul>
+            </li>
+            <li><a href="/allnews.html">News</a></li>
+	    <li><a href="{{ site.url }}{{ site.baseurl }}/fite/" target="_blank">FITE</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+    <!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs" style="background: url(/images/slider7001400/circuit_trans_cut.jpg); background-color: rgba(120, 120, 120, 0.5);">
+    <div class="container">
+
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>LLM for WCSD</li>
+      </ol>
+      <h2>LLM for WCSD</h2>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+    <main id="main" style="margin-top: 15px;">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-2">
+              </div>
+              <div class="col-lg-8">
+                  <div id="textid" class="col-lg-12">
+  <h1 id="The-Power-of-Large-Language-Models-for-Wireless-Communication-System-Development">The Power of Large Language Models for Wireless Communication System Development</h1>
+
+<h2 id="overview">Overview</h2>
+
+<div class="row">
+  <div class="col-sm-6">
+    <p><img src="/images/respic/wcsp1.jpg" class="img-responsive" width="100%" /></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/images/respic/wcsp2.jpg" class="img-responsive" width="100%" /></p>
+  </div>
+</div>
+
+<p>Large language models (LLMs) have garnered significant attention across various research disciplines, including the wireless communication community. There have been several heated discussions on the intersection of LLMs and wireless networking technologies. While recent studies have demonstrated the ability of LLMs to generate hardware description language (HDL) code for simple computation tasks, developing wireless networking prototypes/products via HDL poses far greater challenges because of the more complex computation tasks involved. We aim to address this challenge by investigating the role of LLMs in FPGA-based hardware development for advanced signal-processing algorithms in wireless communication and networking. We begin by exploring LLM-assisted code refactoring, reuse, and validation, using an open-source software-defined radio (SDR) project as a case study. Through the case study, we find that an LLM assistant can potentially yield substantial productivity gains for researchers and developers. We then examine the feasibility of using LLMs to generate HDL code for advanced wireless signal processing, using the Fast Fourier Transform (FFT) algorithm as an example. This task presents two unique challenges: the scheduling of subtasks within the overall task and the multi-step thinking required to solve certain arithmetic problem within the task. To address these challenges, we developed two novel techniques: iterative in-context learning (IICL) and length-limit chain-of-thought (LL-CoT), which culminated in the successful generation of a 64-point Verilog FFT module. Our results demonstrate the potential of LLMs for generalization and imitation, affirming their usefulness in writing HDL code for wireless networking systems. Overall, this work contributes to understanding the role of LLMs in wireless networks and motivates further exploration of their capabilities.</p>
+
+<hr>
+			  
+<h2 id="Details">Details</h2>
+
+<p>This paper delves into the intersection of Large Language Models (LLMs) and wireless communication technologies, yielding inspiring results in utilizing LLMs to prototype wireless systems. Our research highlights the potential of LLMs in facilitating complex FPGA development within wireless systems.</p>
+
+<p>We begin by demonstrating how an LLM can serve as a crucial assistant for FPGA development, providing examples in code refactoring, code reuse, and system validation. Moreover, our paper presents a pioneering exploration of utilizing LLMs to expedite the development of complex signal-processing algorithms for FPGA-empowered SDR systems, using the well-known FFT algorithm as an example. </p>
+
+<p>We tackled two primary challenges encountered in the implementation of FFT in the Verilog language: 1) complex mathematical calculations and 2) the efficient scheduling of sub-module executions. The length-limit chain-of-thought (LL-CoT) prompting technique we used for the first problem significantly enhanced the LLM's capacity for multi-step mathematical reasoning, enabling it to handle the intricate task of twiddle factor generation. Meanwhile, the iterative in-context learning (IICL) approach we developed for the second problem effectively taught the model to schedule the execution of sub-modules by conceptualizing the scheduling task iteratively. The successful deployment of these techniques not only underscores the advanced capabilities of current LLMs in handling complex algorithmic generation tasks on SDR platforms, but also illustrates a substantial leap toward their practical applications in real-world engineering problems, particularly in the telecommunications domain. </p>
+
+<p>Additionally, we conducted benchmark experiments involving a wide pool of participants to quantify the productivity gains provided by LLMs in wireless network prototyping. We constructed a set of HDL programming tasks representative of typical challenges. These tasks were distributed to two groups of volunteers: one composed of undergraduates with related coursework experience, and another consisting of senior postgraduate students from an ASIC&FPGA related lab. For comparison, two equivalently diverse groups (one undergraduate and one postgraduate) were assigned the same tasks, but they could finish these tasks with LLM's assistance. We evaluate each group based on code quality and completion time. The results indicate that the aid of LLMs notably reduces coding time even for experienced engineers and enhances their code quality.</p>
+
+<p><img src="/images/respic/wcsp_code.jpg" class="img-responsive" width="50%" /></p>
+
+<hr>
+
+<h2 id="more-information">For more information</h2>
+
+<p>For more details, please see our <a href="https://arxiv.org/abs/2307.07319" target="_blank">paper</a>.</p>
+
+</div>
+
+              </div>
+              <div class="col-lg-2">
+              </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer id="footer">
+  <div class="footer-top">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+			  We are part of the <a href="https://www.ie.cuhk.edu.hk/main/index.shtml">IE Department</a> <br/>
+				at <a href="http://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>.
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		  Location:<br />
+		  Rm729, SHB<br />
+		  The Chinese University of Hong Kong<br />
+		  Shatin, H.K.<br />		  
+            (<a href="https://goo.gl/maps/6gDa8HKdC8TTGoQCA">Maps</a>)
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="container">
+	<div class="credits">
+		Designed by Jiaxin and generated by Jekyll.
+	</div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="/js/bootstrap.min.js"></script> -->
+
+    <!-- Vendor JS Files -->
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+<script src="/assets/vendor/purecounter/purecounter.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/assets/js/main.js"></script>
+
+  </body>
+
+</html>
