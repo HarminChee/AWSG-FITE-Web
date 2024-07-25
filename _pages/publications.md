@@ -190,67 +190,74 @@ accepted by IEEE Trans. on Wireless Commun., available as early access, DOI 10.1
 
 ### Conference
 
-1. Speeding up Block Propagation in Bitcoin Network: A Cut-through Relaying Scheme,
+1. Wi-LiFi: Integrated Optical Wi-Fi for Enhanced Mobile Robotic Communications,
+   H. Cui, S. C. Liew, H. Chen,
+   IEEE International Conference on Communicationsin (ICC 2024), Jun. 2024.
+
+2. Speeding up Block Propagation in Bitcoin Network: A Cut-through Relaying Scheme,
    L. Zhang, T. Wang, S. C. Liew,
    The 14th IEEE International Conference on Cyber, Physical and Social Computing (IEEE CPSCom-2021), Dec. 2021. **(Won best student paper award)**
 
-2. Federated Edge Learning with Misaligned Over-The-Air Computation,
+3. Federated Edge Learning with Misaligned Over-The-Air Computation,
    Y. Shao, D. Gunduz, S. C. Liew,
    IEEE 22nd International Workshop on Signal Processing Advances in Wireless Communication (SPAWC), Sep. 2021.
 
-3. Deep Learning for Joint Noncoherent Differential Detection and Channel Decoding,
+4. Deep Learning for Joint Noncoherent Differential Detection and Channel Decoding,
    W. Xu, L. Zhang, T. Wang, S. C. Liew,
    IEEE/CIC International Conference on Communications in China (ICCC 2021), Dec. 2021.
 
-4. PubChain: A Decentralized Open-Access Publication Platform with Participants Incentivized by Blockchain Technology,
+5. PubChain: A Decentralized Open-Access Publication Platform with Participants Incentivized by Blockchain Technology,
    T. Wang, S. C. Liew, S. Zhang,
    2020 International Symposium on Networks, Computers and Communications (ISNCC 2020): Blockchains and Finance Technology, Oct 2020.
 
-5. Age-of-Information Dependent Random Access for Massive IoT Networks,
+6. Age-of-Information Dependent Random Access for Massive IoT Networks,
    H. Chen, Y. Gu, S. C. Liew,
    The 3rd IEEE Infocom Age of Information Workshop, July 2020.
 
-6. Significant Sampling for Shortest Path Routing: A Deep Reinforcement Learning Solution,
+7. Significant Sampling for Shortest Path Routing: A Deep Reinforcement Learning Solution,
    Y. Shao, A. Rezaee, S. C. Liew, V. W. S. Chan,
    IEEE Globecom, Dec. 2019.
 
-7. Deep Learning for Joint MIMO Detection and Channel Decoding,
+8. Deep Learning for Joint MIMO Detection and Channel Decoding,
    T. Wang, L. Zhang, S. C. Liew,
    IEEE PIMRC, Sep. 2019.
 
-8. Carrier-Sense Multiple Access for Heterogeneous Wireless Networks using Deep Reinforcement Learning,
+9. Carrier-Sense Multiple Access for Heterogeneous Wireless Networks using Deep Reinforcement Learning,
    Y. Yu, S. C. Liew, T. Wang,
    IEEE WCNC International Workshop on Smart Spectrum, Apr. 2019.
 
 ---
 
 ### Pre-print
+1. Addressing Out-of-Distribution Challenges in Image Semantic Communication Systems with Multi-modal Large Language Models,
+   F. Zhang, Y. Du, K. Chen, Y. Shao, S. C. Liew,
+   arXiv preprint arXiv:2407.15335, Jul. 2024.
 
-1. Llmind: Orchestrating ai and iot with llms for complex task execution,
+2. Llmind: Orchestrating ai and iot with llms for complex task execution,
    H. Cui, Y. Du, Q.Yang, Y. Shao, S. C. Liew,
    arXiv preprint arXiv:2312.09007, Dec. 2023.
 
-2. The power of large language models for wireless communication system development: A case study on fpga platforms,
+3. The power of large language models for wireless communication system development: A case study on fpga platforms,
    Y. Du, S. C. Liew, K. Chen, Y. Shao,
    arXiv preprint arXiv:2307.07319, Jul. 2023.
 
-3. Reliable Packet Detection for Random Access Networks: Analysis, Benchmark, and Optimization,
+4. Reliable Packet Detection for Random Access Networks: Analysis, Benchmark, and Optimization,
    Y. Du, S. C. Liew,
    arXiv preprint arXiv:2307.05224, Jul. 2023.
 
-4. Intermittently Observable Markov Decision Processes,
+5. Intermittently Observable Markov Decision Processes,
    G Chen, S. C. Liew,
    arXiv preprint arXiv:2302.11761, Feb. 2023.
 
-5. Linking Souls to Humans with ZKBID: Accountable Anonymous Blockchain Accounts for Web 3.0 Decentralized Identity,
+6. Linking Souls to Humans with ZKBID: Accountable Anonymous Blockchain Accounts for Web 3.0 Decentralized Identity,
    T. Wang, S. Zhang, S. C. Liew,
    arXiv preprint arXiv:2301.02102, Jan. 2023.
 
-6. ROFA: An OFDMA system for ultra-reliable wireless industrial networking,
+7. ROFA: An OFDMA system for ultra-reliable wireless industrial networking,
    J. Liang, S. C. Liew,
    arXiv preprint arXiv:2109.00979, Sep. 2021.
 
-7. Speeding up block propagation in blockchain network: Uncoded and coded designs,
+8. Speeding up block propagation in blockchain network: Uncoded and coded designs,
    L. Zhang, T. Wang, S. C. Liew,
    arXiv preprint arXiv:2101.00378, Jan. 2021.
 
