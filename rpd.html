@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RPD for RAN</title>
+    <meta name="description" content="AWSG -- RPD for RAN">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/newmain.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="canonical" href="/rpd.html">
+    <link rel="icon" type ="image/x-icon" href="/images/favicon.ico">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KPVC02E75"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0KPVC02E75');
+</script>
+  
+</head>
+  
+
+  <body>
+
+    <!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">AWSG</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="/images/logo-text.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/team.html">Team</a></li>		
+            <li><a href="/publications.html">Publications</a></li>
+            <li class="dropdown"><a href="/research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="/research.html#ai">AI-driven wireless systems</a></li>
+                  <li><a href="/research.html#iiot">Industrial Wireless Networks for IIoT</a></li>
+                  <li><a href="/research.html#blockchain">Networking for Blockchain</a></li>
+                </ul>
+            </li>
+            <li><a href="/allnews.html">News</a></li>
+	    <li><a href="{{ site.url }}{{ site.baseurl }}/fite/" target="_blank">FITE</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+    <!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs" style="background: url(/images/slider7001400/circuit_trans_cut.jpg); background-color: rgba(120, 120, 120, 0.5);">
+    <div class="container">
+
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>RPD for RAN</li>
+      </ol>
+      <h2>RPD for RAN</h2>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+
+    <main id="main" style="margin-top: 15px;">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-2">
+              </div>
+              <div class="col-lg-8">
+                  <div id="textid" class="col-lg-12">
+  <h1 id="Reliable-Packet-Detection-for-Random-Access-Networks">Reliable Packet Detection for Random Access Networks</h1>
+
+<h2 id="overview">Overview</h2>
+
+<div class="row">
+  <div class="col-sm-6">
+    <p><img src="/images/respic/_rpd/main1.jpg" class="img-responsive" width="100%" /></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/images/respic/_rpd/main2.jpg" class="img-responsive" width="100%" /></p>
+  </div>
+</div>
+
+<p>Many advanced industrial systems utilize random access in wireless networks to facilitate massive machine communications with burst transmissions. The stringent requirement for ultra-reliability in industrial communication poses a severe challenge for random access: a receiver should neither miss an incoming packet nor get falsely alarmed by noise or interference. Currently, many academic investigations and industry applications rely on the conventional Schmidl-and-Cox (S&C) algorithm and its variants for packet detection. However, S&C was originally developed for single-antenna receivers and lacks a rigorous analytical framework for the extension to multi-antenna receiver settings. This paper is a revisit and enhancement of S&C to fill this gap. First, we put forth a packet-detection metric called “compensated autocorrelation”, which yields equivalent performance to the S&C metric but is more analytically tractable. With the new metric, we obtain accurate closed-form expressions for false-alarm and missed-detection probabilities. Second, we introduce the principle of Pareto comparison for packet-detection benchmarking, enabling simultaneous consideration of false alarms and missed detections for a fair comparison between different packet-detection schemes. Third, we experimentally validate that taking the real part of the autocorrelation enhances the performance of S&C through a new scheme called real-part S&C (RP-S&C). Fourth, and perhaps most importantly, the adoption of the new metric, compensated autocorrelation, allows us to extend the single-antenna algorithm to the multi-antenna scenario in a rigorous and analytical manner through a weighted-sum compensated autocorrelation. We formulate two optimization problems, aiming to minimize false-alarm probability and missed-detection probability, respectively. We provide our solutions to these problems along with proofs. We demonstrate through extensive experiments that the optimal weights for false alarms (WFA) is a more desirable scheme than the optimal weights for missed detections (WMD) due to its simplicity, reliability, and superior performance. Our results have significant implications for the design and implementation of packet-detection schemes in random-access networks.</p>
+
+<hr>
+			  
+<h2 id="Details">Details</h2>
+
+<p>This paper has provided a comprehensive treatment of packet detection for random access networks. The conventional S&C algorithm suffers from complex correlated noises in its packet-detection metric, making it difficult to analyze. To address this issue, we propose an analytical framework that uses “compensated autocorrelation” as the new metric for packet detection. In addition, our results demonstrate that taking the real part of the autocorrelation can significantly enhance the performance of S&C.</p>
+
+<p>By leveraging the analytical tractability of compensated autocorrelation, we obtain accurate closed-form expressions for false-alarm and missed-detection probabilities. These expressions provide a rigorous theoretical foundation for fair Pareto benchmarking of packet-detection schemes and extension of single-antenna packet detection schemes to multi-antenna packet detection schemes.</P>
+
+<p>In particular, for multi-antenna detection, we can use the weighted sum of compensated autocorrelations at different antennas as the metric without sacrificing analytical rigor. This approach enables us to determine the best weights for minimizing the false-alarm probability (WFA) and the missed detection probability (WMD). Our investigation suggests that WFA is the preferred choice for practical application settings.</p>
+
+<p>Overall, our paper contributes to both the theory and practice of packet detection for random access networks. Our theoretical foundation provides insights on how to design packet detection schemes and how to compare and benchmark them in a rigorous manner in practical systems. This work has the potential to improve the performance of packet detection in random access networks and advance the field toward more efficient and reliable communication systems.</p>
+
+<p><img src="/images/respic/_rpd/result1.png" class="img-responsive" width="100%" /></p>
+
+<p><img src="/images/respic/_rpd/result2.png" class="img-responsive" width="100%" /></p>
+
+<hr>
+
+<h2 id="more-information">For more information</h2>
+
+<p>For more details, please see our <a href="https://arxiv.org/abs/2307.05224" target="_blank">paper</a>.</p>
+
+</div>
+
+              </div>
+              <div class="col-lg-2">
+              </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer id="footer">
+  <div class="footer-top">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+			  We are part of the <a href="https://www.ie.cuhk.edu.hk/main/index.shtml">IE Department</a> <br/>
+				at <a href="http://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>.
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		  Location:<br />
+		  Rm729, SHB<br />
+		  The Chinese University of Hong Kong<br />
+		  Shatin, H.K.<br />		  
+            (<a href="https://goo.gl/maps/6gDa8HKdC8TTGoQCA">Maps</a>)
+		</div>
+		<div class="col-lg-3 col-md-6 footer-info">
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="container">
+	<div class="credits">
+		Designed by Jiaxin and generated by Jekyll.
+	</div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="/js/bootstrap.min.js"></script> -->
+
+    <!-- Vendor JS Files -->
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+<script src="/assets/vendor/purecounter/purecounter.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/assets/js/main.js"></script>
+
+  </body>
+
+</html>
