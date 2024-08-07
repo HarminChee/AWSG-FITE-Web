@@ -92,35 +92,35 @@
       <div class="position-sticky">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" href="#about-fite-program" onclick="showSection('about-fite-program')">1. About FITE Program</a>
+            <a class="nav-link active" href="#about-fite-program">1. About FITE Program</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#technical-sharing" onclick="showSection('technical-sharing')">2. Technical Sharing</a>
+            <a class="nav-link" href="#technical-sharing">2. Technical Sharing</a>
           </li>
           <li class="nav-item sub-item">
-            <a class="nav-link" href="#share-1" onclick="showSection('share-1')">2.1 Share 1</a>
+            <a class="nav-link" href="#share-1">2.1 Share 1</a>
           </li>
           <li class="nav-item sub-item">
-            <a class="nav-link" href="#share-2" onclick="showSection('share-2')">2.2 Share 2</a>
+            <a class="nav-link" href="#share-2">2.2 Share 2</a>
           </li>
           <li class="nav-item sub-item">
-            <a class="nav-link" href="#share-3" onclick="showSection('share-3')">2.3 Share 3</a>
+            <a class="nav-link" href="#share-3">2.3 Share 3</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#llama-tutorial" onclick="showSection('llama-tutorial')">3. Llama Tutorial</a>
+            <a class="nav-link" href="#llama-tutorial">3. Llama Tutorial</a>
           </li>
           <li class="nav-item sub-item">
-            <a class="nav-link" href="#deployment" onclick="showSection('deployment')">3.1 Deployment</a>
+            <a class="nav-link" href="#deployment">3.1 Deployment</a>
           </li>
           <li class="nav-item sub-item">
-            <a class="nav-link" href="#fine-tune" onclick="showSection('fine-tune')">3.2 Fine-tune</a>
+            <a class="nav-link" href="#fine-tune">3.2 Fine-tune</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gpt-programming-interface" onclick="showSection('gpt-programming-interface')">4. GPT Programming Interface</a></li>
+            <a class="nav-link" href="#gpt-programming-interface">4. GPT Programming Interface</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#qa" onclick="showSection('qa')">5. Q&A</a></li>
+            <a class="nav-link" href="#qa">5. Q&A</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact" onclick="showSection('contact')">6. Contact</a></li>
+            <a class="nav-link" href="#contact">6. Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -202,28 +202,10 @@
     font-size: 1.1em; /* Increase font size */
     color: #333; /* Dark gray color */
   }
-  .section {
-    display: none;
-  }
   .sub-item {
     padding-left: 20px;
   }
 </style>
-
-<script>
-  function showSection(id) {
-    var sections = document.querySelectorAll('.section');
-    sections.forEach(function(section) {
-      section.style.display = 'none';
-    });
-    document.getElementById(id).style.display = 'block';
-  }
-
-  // Show the first section by default
-  document.addEventListener('DOMContentLoaded', function() {
-    showSection('about-fite-program');
-  });
-</script>
 
               </div>
               <div class="col-lg-2">
