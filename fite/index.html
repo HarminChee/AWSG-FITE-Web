@@ -137,7 +137,7 @@
         <div id="share-1" class="section">
           <h3>2.1 Share 1</h3>
           <h4>Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth</h4>
-          <p><img src="/images/respic/share1.jpg" class="img-responsive" width="60%" /></p>
+          <p><img src="/images/respic/share1.jpg" class="img-responsive" width="50%" /></p>
           <p>The recent release of Llama 3.1 offers models with an incredible level of performance, closing the gap between closed-source and open-weight models. Instead of using frozen, general-purpose LLMs like GPT-4o and Claude 3.5, you can fine-tune Llama 3.1 for your specific use cases to achieve better performance and customizability at a lower cost.</p>
           <p><a href="https://huggingface.co/blog/mlabonne/sft-llama3" target="_blank">Click here for details</a></p>
           <div style="margin-top: 20px;">
@@ -239,7 +239,7 @@
           <p><code>-output_dir ../llama/models_ft/8B-peft \</code></p>
           <p><code>-batch_size_training 2 -gradient_accumulation_steps 2</code></p>
           <p><strong>&lt;2&gt; Torchtune</strong></p>
-          <p><a href="https://github.com/pytorch/torchtune" target="_blank">torchtune</a> is a PyTorch-native library for fine-tuning Meta Llama family models (including Meta Llama 3). It supports an end-to-end fine-tuning lifecycle, including:</p>
+          <p><a href="https://github.com/pytorch/torchtune" target="_blank">Torchtune</a> is a PyTorch-native library for fine-tuning Meta Llama family models (including Meta Llama 3). It supports an end-to-end fine-tuning lifecycle, including:</p>
           <p>• Download model checkpoints and datasets</p>
           <p>• Training regimens for fine-tuning Llama 3 using full fine-tuning, LoRA, and QLoRA</p>
           <p>• Support for single GPU fine-tuning, running on consumer GPUs with 24GB VRAM</p>
@@ -252,7 +252,7 @@
           <p>pip install torchtune<code></code></p>
           <p><strong>&lt;3&gt; Hugging Face Llama 3 Model Weights</strong></p>
           <p>Follow the instructions on the Hugging Face <a href="https://huggingface.co/meta-llama/Meta-Llama-3-8B" target="_blank">meta-llama</a> repository to make sure you have access to the Llama 3 model weights. Once you have confirmed you have access, you can run the following command to download the weights to your local machine. This will also download the tokenizer model and responsible use guide. </p>
-          <p><img src="/images/respic/tut10.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut10.png" class="img-responsive" width="60%" /></p>
           <p><code>tune download meta-llama/Meta-Llama-3-8B \</code></p>
           <p><code>-output-dir <checkpoint_dir> \</code></p>
           <p><code>-hf-token <ACCESS TOKEN></code></p>
@@ -344,8 +344,8 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
           <p>4. Dataset preprocessing is successful: INFO:__main__: Preprocess the dataset.</p>
           <p>5. Training is normal: Loss and evaluation loss (eval_loss) are recorded at a certain number of steps during training.</p>
           <p>6. Model is saved successfully: INFO:__main__: Save the model.</p>
-          <p><img src="/images/respic/tut11.png" class="img-responsive" width="100%" /></p>
-          <p><img src="/images/respic/tut12.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut11.jpg" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut12.jpg" class="img-responsive" width="100%" /></p>
           <p><strong>&lt;5&gt; Summary and Next Steps</strong></p>
           <p>Based on this information, the following conclusions can be drawn:</p>
           <p>1. The training script ran successfully: The training script was not interrupted and successfully completed all training steps.</p>
