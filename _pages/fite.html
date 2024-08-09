@@ -94,17 +94,17 @@ permalink: /fite/
           <p>With a Linux setup that has a GPU with at least 16GB of VRAM, you should be able to load the 8B Llama model in fp16 natively. If you have an Nvidia GPU, you can confirm your setup using the NVIDIA System Management Interface tool, which will show you what GPU you have, available VRAM, and other useful information,  </p>
           <p>by typing: <code>nvidia-smi</code></p>
           <p>to view nvidia's VRAM configuration.</p>
-          <p><img src="/images/respic/tut1.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut1.png" class="img-responsive" width="80%" /></p>
           <p><strong>&lt;2&gt; Get llama3 Weight</strong></p>
           <p>Visit the <a href="https://llama.meta.com/llama-downloads/" target="_blank">llama website</a>, fill in your details in the form, and select the model you want to download.</p>
           <p>Read and agree to the license agreement, then click Accept and Continue. You will see a unique URL on the website. You will also receive the URL in an email, which will be valid for 24 hours and allow you to download each model up to 5 times. You can request a new URL at any time.</p>
           <p>Now, we are ready to get the weights and run the model locally on our machine. It is recommended to use a Python virtual environment to run this demo. In this demo, we use Miniconda, but you can use any virtual environment of your choice. In addition, please refer to the configuration instructions of <a href="https://docs.anaconda.com/miniconda/miniconda-install/" target="_blank">miniconda</a>:</p>
-          <p><img src="/images/respic/tut2.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut2.png" class="img-responsive" width="80%" /></p>
           <p>Open your terminal and create a new folder called llama3-demo in your workspace. Navigate to the new folder and clone the Llama repository:</p>
           <p><code>mkdir llama3-demo</code></p>
           <p><code>cd llama3-demo</code></p>
           <p><code>git clone https://github.com/meta-llama/llama3.git</code></p>
-          <p><img src="/images/respic/tut3.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut3.png" class="img-responsive" width="80%" /></p>
           <p>For this demo, we need to install two prerequisites: wget and md5sum. To confirm if your distribution has these, use:</p>
           <p><code>wget --version</code></p>
           <p><code>md5sum –version</code></p>
@@ -113,10 +113,10 @@ permalink: /fite/
           <p><code>apt-get install md5sum</code></p>
           <p>To make sure we have all package dependencies installed, in the newly cloned repo folder enter:</p>
           <p><code>pip install -e </code></p>
-          <p><img src="/images/respic/tut4.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut4.png" class="img-responsive" width="80%" /></p>
           <p>Now, we are ready to download the model weights for our local setup. Our team created a helper script to make it easy to download the model weights. In your terminal, enter:</p>
           <p><code>./download.sh</code></p>
-          <p><img src="/images/respic/tut5.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut5.png" class="img-responsive" width="80%" /></p>
           <p>The script will ask you for the URL from your email. Paste the URL you received from Meta. It will then ask you to enter a list of models to download. In our example, we will download the 8B pretrained model and the fine-tuned 8B chat model. Therefore, we will enter "8B,8B-instruct".</p>
           <p><strong>&lt;3&gt; Running the Model</strong></p>
           <p>We are ready to run an example inference script to test that our model is setup correctly and working properly. We can use an example Python script called <a href="https://github.com/meta-llama/llama3/blob/main/example_text_completion.py" target="_blank">example_text_completion.py</a> to test the model. </p>
@@ -129,7 +129,7 @@ permalink: /fite/
           <p>Replace Meta-Llama-3-8B/ with the path to your checkpoint directory and tokenizer.model with the path to your tokenizer model. If you run it from this main directory, the paths may not need to be changed.</p>
           <p>Set –nproc_per_node to the MP value for the model you are using. For the 8B model, this value is set to 1.</p>
           <p>Adjust the max_seq_len and max_batch_size parameters as needed. We set them to 128 and 4 respectively. </p>
-          <p><img src="/images/respic/tut6.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut6.png" class="img-responsive" width="80%" /></p>
           <p><strong>&lt;4&gt; Trying out and Improving 8b-instruct</strong></p>
           <p>To try out the fine-tuned chat model (8B-instruct), we have a similar example called <a href="https://github.com/meta-llama/llama3/blob/main/example_chat_completion.py" target="_blank">example_chat_completion.py</a>.</p>
           <p><code>torchrun --nproc_per_node 1 example_chat_completion.py </code></p>
@@ -137,10 +137,11 @@ permalink: /fite/
           <p><code>-tokenizer_path Meta-Llama-3-8B-Instruct/tokenizer.model </code></p>
           <p><code>-max_seq_len 512 </code></p>
           <p><code>-max_batch_size 6</code></p>
-          <p><img src="/images/respic/tut7.png" class="img-responsive" width="100%" /></p>
-          <p><img src="/images/respic/tut8.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut7.png" class="img-responsive" width="80%" /></p>
+          <p><img src="/images/respic/tut8.png" class="img-responsive" width="80%" /></p>
           <p>Note that in this case, we use the Meta-Llama-3-8B-Instruct/model and provide the correct tokenizer instruction under the model folder.</p>
         </div>
+        <hr>
         <div id="fine-tune" class="section">
           <h3>3.2 Fine-tune</h3>
           <p><strong>&lt;1&gt; Recipes PEFT LoRA</strong></p>
@@ -148,7 +149,7 @@ permalink: /fite/
           <p>In order to run the recipes, follow the steps below:</p>
           <p>Create a conda environment with pytorch and additional dependencies</p>
           <p>Install the recipes as described <a href="https://github.com/meta-llama/llama-recipes#install-with-pip" target="_blank">here</a>:</p>
-          <p><img src="/images/respic/tut9.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut9.png" class="img-responsive" width="80%" /></p>
           <p>Download the desired model from hf, either using git-lfs or using the llama download script.</p>
           <p>With everything configured, run the following command:</p>
           <p><code>python -m llama_recipes.finetuning \</code></p>
@@ -262,8 +263,8 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
           <p>4. Dataset preprocessing is successful: INFO:__main__: Preprocess the dataset.</p>
           <p>5. Training is normal: Loss and evaluation loss (eval_loss) are recorded at a certain number of steps during training.</p>
           <p>6. Model is saved successfully: INFO:__main__: Save the model.</p>
-          <p><img src="/images/respic/tut11.jpg" class="img-responsive" width="100%" /></p>
-          <p><img src="/images/respic/tut12.jpg" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut11.jpg" class="img-responsive" width="80%" /></p>
+          <p><img src="/images/respic/tut12.jpg" class="img-responsive" width="80%" /></p>
           <p><strong>&lt;5&gt; Summary and Next Steps</strong></p>
           <p>Based on this information, the following conclusions can be drawn:</p>
           <p>1. The training script ran successfully: The training script was not interrupted and successfully completed all training steps.</p>
@@ -276,14 +277,17 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
           <p>A possible example inference script is <a href="/_pages/infer_fintuned.py" download="llama3_lora.py">here</a>, and you can improve it according to your needs.</p>
         </div>
       </div>
+        <hr>
       <div id="gpt-programming-interface" class="section">
         <h2>4. GPT Programming Interface</h2>
         <p>...</p>
       </div>
+        <hr>
       <div id="qa" class="section">
         <h2>5. Q&A</h2>
         <p>...</p>
       </div>
+        <hr>
       <div id="contact" class="section">
         <h2>6. Contact</h2>
         <p>This page is developed and maintained by Harmin Chee. If you have any questions, please feel free to contact <a href="mailto:h.chee@link.cuhk.edu.hk">him</a>.</p>
