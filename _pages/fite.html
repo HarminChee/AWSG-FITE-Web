@@ -90,12 +90,12 @@ permalink: /fite/
           <h3>3.1 Deployment</h3>
           <p>LLaMA 3 (Large Language Model Meta AI 3) is the third generation of large language model developed by Meta (Facebook). It is an advanced model based on deep learning and artificial intelligence technology, designed to generate high-quality natural language text. LLaMA 3 is commonly used in various natural language processing tasks, including text generation, translation, question answering, text summarization, etc. As an upgraded version after LLaMA 2, it has improved performance, efficiency and processing power, and can better understand and generate complex language structures.</p>
           <p>The LlaMA3 series model group supports 8B and 70B pre-trained versions, and is open source for everyone to use. In the following tutorials, we will deploy and use the dataset to fine-tune the LoRA of llaMA3-8B.</p>
-          <p><strong>&lt;1&gt; Deploy and run on Linux</strong></p>
+          <p><strong>&lt;1&gt; Deploy and Run on Linux</strong></p>
           <p>With a Linux setup that has a GPU with at least 16GB of VRAM, you should be able to load the 8B Llama model in fp16 natively. If you have an Nvidia GPU, you can confirm your setup using the NVIDIA System Management Interface tool, which will show you what GPU you have, available VRAM, and other useful information,  </p>
           <p>by typing: <code>nvidia-smi</code></p>
           <p>to view nvidia's VRAM configuration.</p>
           <p><img src="/images/respic/tut1.png" class="img-responsive" width="100%" /></p>
-          <p><strong>&lt;2&gt; Get llama3 weight</strong></p>
+          <p><strong>&lt;2&gt; Get llama3 Weight</strong></p>
           <p>Visit the <a href="https://llama.meta.com/llama-downloads/" target="_blank">llama website</a>, fill in your details in the form, and select the model you want to download.</p>
           <p>Read and agree to the license agreement, then click Accept and Continue. You will see a unique URL on the website. You will also receive the URL in an email, which will be valid for 24 hours and allow you to download each model up to 5 times. You can request a new URL at any time.</p>
           <p>Now, we are ready to get the weights and run the model locally on our machine. It is recommended to use a Python virtual environment to run this demo. In this demo, we use Miniconda, but you can use any virtual environment of your choice. In addition, please refer to the configuration instructions of <a href="https://docs.anaconda.com/miniconda/miniconda-install/" target="_blank">miniconda</a>:</p>
@@ -130,7 +130,7 @@ permalink: /fite/
           <p>Set –nproc_per_node to the MP value for the model you are using. For the 8B model, this value is set to 1.</p>
           <p>Adjust the max_seq_len and max_batch_size parameters as needed. We set them to 128 and 4 respectively. </p>
           <p><img src="/images/respic/tut6.png" class="img-responsive" width="100%" /></p>
-          <p><strong>&lt;4&gt; Trying out and improving 8b-instruct</strong></p>
+          <p><strong>&lt;4&gt; Trying out and Improving 8b-instruct</strong></p>
           <p>To try out the fine-tuned chat model (8B-instruct), we have a similar example called <a href="https://github.com/meta-llama/llama3/blob/main/example_chat_completion.py" target="_blank">example_chat_completion.py</a>.</p>
           <p><code>torchrun --nproc_per_node 1 example_chat_completion.py </code></p>
           <p><code>-ckpt_dir Meta-Llama-3-8B-Instruct/ </code></p>
@@ -143,7 +143,137 @@ permalink: /fite/
         </div>
         <div id="fine-tune" class="section">
           <h3>3.2 Fine-tune</h3>
-          <p>...</p>
+          <p><strong>&lt;1&gt; Recipes PEFT LoRA</strong></p>
+          <p>The llama-recipes repo has details on different fine-tuning (FT) alternatives supported by the provided sample scripts. In particular, it highlights the use of PEFT as the preferred FT method, as it reduces the hardware requirements and prevents catastrophic forgetting. For specific cases, full parameter FT can still be valid, and different strategies can be used to still prevent modifying the model too much. Additionally, FT can be done in single gpu or multi-gpu with FSDP.</p>
+          <p>In order to run the recipes, follow the steps below:</p>
+          <p>Create a conda environment with pytorch and additional dependencies</p>
+          <p>Install the recipes as described <a href="https://github.com/meta-llama/llama-recipes#install-with-pip" target="_blank">here</a>:</p>
+          <p><img src="/images/respic/tut9.png" class="img-responsive" width="100%" /></p>
+          <p>Download the desired model from hf, either using git-lfs or using the llama download script.</p>
+          <p>With everything configured, run the following command:</p>
+          <p><code>python -m llama_recipes.finetuning \</code></p>
+          <p><code>-use_peft -peft_method lora -quantization \</code></p>
+          <p><code>-model_name ../llama/models_hf/8B \</code></p>
+          <p><code>-output_dir ../llama/models_ft/8B-peft \</code></p>
+          <p><code>-batch_size_training 2 -gradient_accumulation_steps 2</code></p>
+          <p><strong>&lt;2&gt; Torchtune</strong></p>
+          <p><a href="https://github.com/pytorch/torchtune" target="_blank">torchtune</a> is a PyTorch-native library for fine-tuning Meta Llama family models (including Meta Llama 3). It supports an end-to-end fine-tuning lifecycle, including:</p>
+          <p>• Download model checkpoints and datasets</p>
+          <p>• Training regimens for fine-tuning Llama 3 using full fine-tuning, LoRA, and QLoRA</p>
+          <p>• Support for single GPU fine-tuning, running on consumer GPUs with 24GB VRAM</p>
+          <p>• Scale fine-tuning to multiple GPUs using PyTorch FSDP</p>
+          <p>• Log metrics and model checkpoints during training using weights and biases</p>
+          <p>• Evaluate fine-tuned models using EleutherAI’s LM evaluation tool</p>
+          <p>• Post-training quantization of fine-tuned models via TorchAO</p>
+          <p>• Interoperability with inference engines including ExecuTorch</p>
+          <p>To install torchtune, simply run the pip install command</p>
+          <p>pip install torchtune<code></code></p>
+          <p><strong>&lt;3&gt; Hugging Face Llama 3 Model Weights</strong></p>
+          <p>Follow the instructions on the Hugging Face <a href="https://huggingface.co/meta-llama/Meta-Llama-3-8B" target="_blank">meta-llama</a> repository to make sure you have access to the Llama 3 model weights. Once you have confirmed you have access, you can run the following command to download the weights to your local machine. This will also download the tokenizer model and responsible use guide. </p>
+          <p><img src="/images/respic/tut10.png" class="img-responsive" width="100%" /></p>
+          <p><code>tune download meta-llama/Meta-Llama-3-8B \</code></p>
+          <p><code>-output-dir <checkpoint_dir> \</code></p>
+          <p><code>-hf-token <ACCESS TOKEN></code></p>
+          <p>Set the environment variable HF_TOKEN or pass --hf-token to the command to verify your access. You can find your token at <a href="https://huggingface.co/settings/tokens" target="_blank">here</a>.</p>
+          <p>After using hugging face to download the weights locally, we write a script to run LoRA fine-tuning. The database used is meta's official IMDB dataset, and the running time is about two and a half hours.</p>
+          <p><strong>&lt;4&gt; Example LoRA Script</strong></p>
+          <p>You can use the following basic LoRA fine-tuning script template as a reference, including LoRA configuration, data preprocessing, training parameter settings, model fine-tuning, and saving related parts.</p>
+          <pre><code>
+from datasets import load_dataset
+from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
+from peft import LoraConfig, get_peft_model
+import torch
+
+# Load the model and tokenizer
+model_name = "meta-llama/Meta-Llama-3-8B"
+base_model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype=torch.float32,
+    device_map="auto"
+)
+tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+tokenizer.pad_token = tokenizer.eos_token
+tokenizer.padding_side = "right"
+
+# Load the dataset
+dataset = load_dataset("imdb", split='train[:1%]')
+eval_dataset = load_dataset("imdb", split='test[:1%]')
+
+# Configure LoRA
+lora_config = LoraConfig(
+    r=16,
+    lora_alpha=32,
+    target_modules=["q_proj", "v_proj"],
+    lora_dropout=0.1,
+    bias="none"
+)
+model = get_peft_model(base_model, lora_config)
+
+# Data preprocessing function
+def preprocess_function(examples):
+    tokenized_inputs = tokenizer(examples['text'], truncation=True, padding='max_length', max_length=512)
+    tokenized_inputs["labels"] = tokenized_inputs["input_ids"].copy()
+    return tokenized_inputs
+
+tokenized_dataset = dataset.map(preprocess_function, batched=True)
+tokenized_eval_dataset = eval_dataset.map(preprocess_function, batched=True)
+
+# Set training parameters
+training_args = TrainingArguments(
+    output_dir="./llama3-8b-lora-finetuned",
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=2,
+    num_train_epochs=3,
+    logging_steps=10,
+    save_steps=10,
+    eval_strategy="steps",
+    eval_steps=10,
+    fp16=False,
+    save_total_limit=2,
+    load_best_model_at_end=True,
+    metric_for_best_model="eval_loss"
+)
+
+# Creating and running the Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=tokenized_dataset,
+    eval_dataset=tokenized_eval_dataset
+)
+
+trainer.train()
+
+# Save the fine-tuned model
+model.save_pretrained("./llama3-8b-lora-finetuned")
+</code></pre>
+          <p>To help the debugging and execution process go more smoothly. We can also add:</p>
+          <p>• Logging and error handling: ensure that errors can be captured during code execution and provide debugging information.</p>
+          <p>• Access token management: authentication when interacting with Hugging Face's API.</p>
+          <p>• Custom Trainer class: to meet specific training needs.</p>
+          <p>• Data preprocessing logic: convert raw data into a format acceptable to the model.</p>
+          <p>• Optimize settings for device use: optimize code execution for hardware resources.</p>
+          <p>These contents can help the code be more robust and flexible in actual applications, but when standardizing, you may choose to remove or simplify these parts to highlight the core logic.</p>
+          <p>You can view this more detailed example <a href="/_pages/llama3_lora.py" download="llama3_lora.py">script</a>.</p>
+          <p>Here are some key points to check if the LoRA fine-tuning script runs successfully:</p>
+          <p>1. Model and marker are loaded successfully: INFO:__main__: Load the model and marker.</p>
+          <p>2. Dataset is loaded successfully: INFO:__main__: Load the dataset.</p>
+          <p>3. LoRA configuration is successful: INFO:__main__: Configure LoRA.</p>
+          <p>4. Dataset preprocessing is successful: INFO:__main__: Preprocess the dataset.</p>
+          <p>5. Training is normal: Loss and evaluation loss (eval_loss) are recorded at a certain number of steps during training.</p>
+          <p>6. Model is saved successfully: INFO:__main__: Save the model.</p>
+          <p><img src="/images/respic/tut11.png" class="img-responsive" width="100%" /></p>
+          <p><img src="/images/respic/tut12.png" class="img-responsive" width="100%" /></p>
+          <p><strong>&lt;5&gt; Summary and Next Steps</strong></p>
+          <p>Based on this information, the following conclusions can be drawn:</p>
+          <p>1. The training script ran successfully: The training script was not interrupted and successfully completed all training steps.</p>
+          <p>2. The model was saved successfully: After training, the model was successfully saved.</p>
+          <p>3. The loss gradually decreased: During the training and evaluation process, the loss gradually decreased, indicating that the model is gradually learning and improving.</p>
+          <p>You can now proceed to the next step, such as:</p>
+          <p>1. Evaluate the model: Evaluate the model using an independent test set to confirm the generalization ability of the model.</p>
+          <p>2. Model inference: Use the fine-tuned model for inference tasks to verify its performance in actual applications.</p>
+          <p>3. Further optimization: If necessary, you can further adjust the hyperparameters or use more data for fine-tuning to further improve the model performance.</p>
+          <p>A possible example inference script is <a href="/_pages/infer_fintuned.py" download="llama3_lora.py">here</a>, and you can improve it according to your needs.</p>
         </div>
       </div>
       <div id="gpt-programming-interface" class="section">
@@ -156,7 +286,7 @@ permalink: /fite/
       </div>
       <div id="contact" class="section">
         <h2>6. Contact</h2>
-        <p>...</p>
+        <p>This page is developed and maintained by Harmin Chee. If you have any questions, please feel free to contact <a href="mailto:h.chee@link.cuhk.edu.hk">him</a>.</p>
       </div>
     </main>
   </div>
