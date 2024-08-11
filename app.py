@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import openai
 
 app = Flask(__name__)
+CORS(app)  # 启用 CORS 支持
 
 # Replace with your API key and base URL if needed
 api_key = 'sk-5pkp7lLRC2nx8hCzBfB44fD499Bf48B3B408Eb39E604Fa77'
@@ -17,7 +19,7 @@ def generate():
     prompt = data.get('prompt')
     temperature = data.get('temperature')
     max_tokens = data.get('max_tokens')
-    
+
     try:
         response = openai.Completion.create(
             model=model,
