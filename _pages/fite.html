@@ -278,26 +278,27 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
         </div>
       </div>
         <hr>
-        <div id="fine-tune" class="section">
+        
+        <div id="gpt-programming-interface" class="section">
         <h2>4. GPT Programming Interface</h2>
-        <p>Please configure the settings and interact with GPT:</p>
+        <p>Please Configure the Settings and Interact with GPTs:</p>
 
-        <label for="prompt">Enter your prompt:</label>
-        <input type="text" id="prompt" placeholder="Type your prompt here..." style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+        <label for="prompt">Enter your Prompt:</label>
+        <input type="text" id="prompt" placeholder="Type your prompt here..." style="width: 50%; padding: 10px; margin-top: 5px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
 
-        <label for="model">Select a model:</label>
-        <select id="model" style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; background-color: #f9f9f9; appearance: none;">
-            <option value="gpt-4o-mini">gpt-4o-mini --- rate = 0.50</option>
-            <option value="gemma-7b-it">gemma-7b-it --- rate = 0.40</option>
-            <option value="gpt-3.5-turob">gpt-3.5-turob --- rate = 0.75</option>
-            <option value="claude-3-haiku">claude-3-haiku --- rate = 0.50</option>
-            <option value="deepseek-coder-6.7b">deepseek-coder-6.7b --- rate = 0.60</option>
-            <option value="llama3-70b">llama3-70b --- rate = 1.00</option>
+        <label for="model">Select a Model:</label>
+        <select id="model" style="width: 50%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; background-color: #f9f9f9; appearance: none;">
+            <option value="GPT-4o-mini">GPT-4o-mini rate = 0.50</option>
+            <option value="Gemma-7b-it">Gemma-7b-it rate = 0.40</option>
+            <option value="GPT-3.5-turob">Gpt-3.5-turob rate = 0.75</option>
+            <option value="Claude-3-haiku">Claude-3-haiku rate = 0.50</option>
+            <option value="Deepseek-coder-6.7b">Deepseek-coder-6.7b rate = 0.60</option>
+            <option value="Llama3-70b">:lama3-70b rate = 1.00</option>
         </select>
-        <label for="temperature">Set temperature (0-1):</label>
-        <input type="number" id="temperature" min="0" max="1" step="0.01" value="0.5" style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
-        <label for="max_tokens">Set max tokens:</label>
-        <input type="number" id="max_tokens" value="100" style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+        <label for="temperature">Set Temperature (0-1):</label>
+        <input type="number" id="temperature" min="0" max="1" step="0.01" value="0.5" style="width: 50%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+        <label for="max_tokens">Set Max Tokens:</label>
+        <input type="number" id="max_tokens" value="100" style="width: 50%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
         <button id="gpt-submit" onclick="sendToGPT()" style="padding: 10px 20px; background-color: #4CAF50; color: white; font-size: 16px; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 30px;">Submit</button>
         <h3>Response:</h3>
         <div id="gpt-output" style="padding: 15px; background-color: #f1f1f1; border-radius: 5px; border: 1px solid #ccc;"></div>
@@ -329,6 +330,7 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
       }
     </script>
       </div>
+      
         <hr>
       <div id="qa" class="section">
         <h2>5. Q&A</h2>
