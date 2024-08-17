@@ -9,41 +9,43 @@ permalink: /
 
 <!-- Welcome to the Advanced Wireless Systems Group. Our group focuses on both experimental and theoretical aspects of research related to wireless communications and network systems. -->
 
-Our flagship research prior to 2018 has been [physical-layer network coding](http://www.inc.cuhk.edu.hk/research/projectsphysical-layer-network-coding-pnc) (PNC), a wireless-networking concept first put forth by the group in 2006.
+### Research focuses of the group
 
-### Going forward, three research focuses of the group will be
+AI4Net & Net4AI: In the domain of “AI for Networks”, we develop advanced AIs that empower the next-generation smart networks and enable a user-friendly human-network interface. In the domain of “Networks for AI”, we are particularly interested in distributed AI systems facilitated by cutting-edge wireless/wired networks.
 
-1. Industrial wireless networks for IIoT communication (particularly specialized clean-slate network designs for the factory setting rather than Wi-Fi or 5G networks for general applications).
+Wireless Industrial Networks: We solve real-world wireless communication problems specialized for industrial application settings with critical latency and reliability concerns.
 
-2. AI-driven wireless communications system and wireless networks.
-
-3. Network protocol and network architecture designs for blockchain, with the aim to boost transaction throughput.
+Blockchain and Cryptos: We design novel network protocols and architectures for blockchain and study the price dynamics of cryptos.
 
 (see [Research](research.html) for more details).
 
-### Some representative publications by the group in these directions are as follows:
+### Some representative works by the group in these directions are as follows:
 
-1. J. Liang, H. Chen, S. C. Liew, "[Design and Implementation of Time-Sensitive Wireless IoT Networks on Software-Defined Radio](https://ieeexplore.ieee.org/document/9480604)," IEEE Internet of Things Journal, early access, DOI: 10.1109/JIOT.2021.3094667, Jul. 2021.
+1. Cui, H.*, Du, Y.*, Yang, Q.*, Shao, Y., & Liew, S. C. (2024). LLMind: Orchestrating AI and IoI with LLMs for complex task execution. IEEE Communication Magazine
 
-2. L. Zhang, T. Wang, S. C. Liew, "Speeding up Block Propagation in Bitcoin Network: A Cut-through Relaying Scheme," The 14th IEEE International Conference on Cyber, Physical and Social Computing (IEEE CPSCom-2021), Dec. 2021. **(Won best student paper award)**
+2. Zhang, F.*, Du, Y.*, Chen, K.*, Shao, Y., & Liew, S. C. (2024). Addressing Out-of-Distribution Challenges in Image Semantic Communication Systems with Multi-modal Large Language Models. arXiv preprint arXiv:2407.15335.
 
-3. Y. Yu, S. C. Liew, T. Wang, "[Non-Uniform Time-Step Deep Q-Network for Carrier-Sense Multiple Access in Heterogeneous Wireless Networks,](https://ieeexplore.ieee.org/abstract/document/9079169/)" IEEE Trans. on Mobile Computing, vol. 20, no. 9, pp. 2848-2861, DOI: 10.1109/TMC.2020.2990399, Sep. 2021.
+3. You, X., Zhang, S., Wang, T., & Liew, S. C. (2024). Hyperclique: A Novel P2P Network Structure for Blockchain Systems. In 2024 IEEE International Conference on Computing, Networking and Communications (ICNC) 
 
-4. T. Wang, C. Zhao, Q. Yang, S. Zhang, S. C. Liew, “[Ethna: Analyzing the Underlying Peer-to-Peer Network of Ethereum Blockchain](https://ieeexplore.ieee.org/abstract//document/9426434),” IEEE Trans. on Network Science and Engineering, vol. 8, no. 3, pp. 2131-2146, DOI: 10.1109/TNSE.2021.3078181, Jul.-Sep. 2021.
+4. Du, Y., Deng, H., Liew, S. C., Chen, K., Shao, Y., & Chen, H. (2023). The power of large language models for wireless communication system development: A case study on FPGA platforms. arXiv preprint arXiv:2307.07319.
 
-5. T. Wang, S. C. Liew, S. Zhang, “[When Blockchain Meets AI: Optimal Mining Strategy Achieved by Machine Learning](https://onlinelibrary.wiley.com/doi/abs/10.1002/int.22375),” International Journal of Intelligent Systems, vol. 36, no. 5, pp. 2183-2207, DOI: 10.1002/int.22375, Feb. 2021.
+5. Chen, G., & Liew, S. C. (2023). An index policy for minimizing the uncertainty-of-information of Markov sources. IEEE Transactions on Information Theory.
 
-6. Y. Shao, S. C. Liew, J. Liang*, “S[poradic Ultra-Time-Critical Crowd Messaging in V2X](https://ieeexplore.ieee.org/abstract/document/9257442/),” IEEE Trans. on Commun., vol. 69, no. 2, pp. 817-830, DOI: 10.1109/TCOMM.2020/3037550, Feb. 2021.
+6. Zhao, C., Wang, T., Zhang, S., & Liew, S. C. (2023). HCB: enabling compact block in Ethereum network with secondary pool and transaction prediction. IEEE Transactions on Network Science and Engineering.
 
-7. Y. Shao, S. C. Liew, T. Wang, "[AlphaSeq: Sequence Discovery with Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/8877997/)", IEEE Trans. Neural Networks and Learning Systems, IEEE Trans. Neural Networks and Learning Systems, vol. 31, no. 9, pp. 3319-3333, DOI: 10.1109/TNNLS.2019.2942951, Sep. 2020.
-*(This work adapts and modifies the AlphaGo algorithm to discover 0-1 sequences for communications and radar applications.)*
+7. Chen, G., Zhang, L., & Liew, S. C. (2023). Periodic Transmissions in Random Access Networks: Stressed Period and Delay. IEEE Transactions on Communications.
 
-8. Y. Shao, A. Rezaee, S. C. Liew, V. Chan, "[Significant Sampling for Shortest Path Routing: A Deep Reinforcement Learning Solution](https://ieeexplore.ieee.org/abstract/document/9110857/)," IEEE JSAC Special Issue on Advances in Artificial Intelligence and Machine Learning for Networking, vol. 38, no. 10, pp. 2234-2248, DOI: 10.1109/JSAC.2020.300036, Oct. 2020.
-*(A collaboration with MIT researchers to use the AI technique of deep reinforcement learning to solve problems in network routing.)*
+8. Du, Y., Liew, S. C., & Shao, Y. (2023). Efficient FFT computation in IFDMA transceivers. IEEE Transactions on Wireless Communications.
 
-9. T. Wang, S. C. Liew, S. Zhang, "[PubChain: A Decentralized Open-Access Publication Platform with Participants Incentivized by Blockchain Technology,](https://ieeexplore.ieee.org/abstract/document/9297213/)" 2020 International Symposium on Networks, Computers and Communications (ISNCC 2020): Blockchains and Finance Technology, Oct 2020.
+9. Wang, T., Zhang, S., Yang, Q., & Liew, S. C. (2023). Account service network: a unified decentralized web 3.0 portal with credible anonymity. IEEE Network.
 
-10. Y. Yu, T. Wang, S. C. Liew, "[Deep-Reinforcement Learning Multiple Access for Heterogeneous Wireless Networks](https://ieeexplore.ieee.org/abstract/document/8665952/)," IEEE J. on Selected Areas in Commun., vol. 37, no. 6, pp. 1277-1290, DOI: 10.1109/JSAC.2019.2904329, Jun. 2019.
-*(This work makes use of deep-reinforcement learning techniques to design a MAC protocol that can co-exist harmoniously with other MAC protocols, without inner knowledge on how these other MAC protocols operate.)*
+10. Chen, G., Liew, S. C., & Shao, Y. (2022). Uncertainty-of-information scheduling: A restless multiarmed bandit framework. IEEE Transactions on Information Theory.
+
+11. Shao, Y., Gündüz, D., & Liew, S. C. (2022). Bayesian over-the-air computation. IEEE Journal on Selected Areas in Communications.
+
+12. Zhang, L., & Liew, S. C. (2022). Reliable Wireless Networking via Soft-Source Information Combining. IEEE Internet of Things Journal.
+
+13. Zhang, L., Liew, S. C., & Chen, H. (2022). A just-in-time networking framework for minimizing request-response latency of wireless time-sensitive applications. IEEE Internet of Things Journal.
+
 
 (see [Publications](publications.html) and [Research Projects](research.html) for more details).
