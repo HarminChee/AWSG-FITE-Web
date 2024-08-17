@@ -11,11 +11,11 @@ permalink: /
 
 ### Research focuses of the group
 
-AI4Net & Net4AI: In the domain of “AI for Networks”, we develop advanced AIs that empower the next-generation smart networks and enable a user-friendly human-network interface. In the domain of “Networks for AI”, we are particularly interested in distributed AI systems facilitated by cutting-edge wireless/wired networks.
+**AI4Net & Net4AI:** In the domain of “AI for Networks”, we develop advanced AIs that empower the next-generation smart networks and enable a user-friendly human-network interface. In the domain of “Networks for AI”, we are particularly interested in distributed AI systems facilitated by cutting-edge wireless/wired networks.
 
-Wireless Industrial Networks: We solve real-world wireless communication problems specialized for industrial application settings with critical latency and reliability concerns.
+**Wireless Industrial Networks:** We solve real-world wireless communication problems specialized for industrial application settings with critical latency and reliability concerns.
 
-Blockchain and Cryptos: We design novel network protocols and architectures for blockchain and study the price dynamics of cryptos.
+**Blockchain and Cryptos:** We design novel network protocols and architectures for blockchain and study the price dynamics of cryptos.
 
 (see [Research](research.html) for more details).
 
