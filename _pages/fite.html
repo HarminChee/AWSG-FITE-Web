@@ -287,6 +287,10 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
 
 <button id="register-btn" style="padding: 10px 20px; background-color: #4CAF50; color: white; font-size: 16px; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 20px; display: block;">Register</button>
 
+<!-- Overlay for dimming the background -->
+<div id="overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:999;"></div>
+
+<!-- Registration Popup -->
 <div id="registration-popup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); width:300px; padding:20px; background-color:white; border:1px solid #ccc; border-radius:5px; z-index:1000;">
     <label for="cuhk-account">Enter your CUHK account:</label>
     <input type="text" id="cuhk-account" placeholder="CUHK Account" style="width:100%; padding:10px; margin-top:10px; border-radius:5px; border:1px solid #ccc; font-size:16px;">
@@ -321,19 +325,27 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
 
 <script>
   document.getElementById('register-btn').addEventListener('click', function() {
-    document.getElementById('registration-popup').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';  // Show overlay
+    document.getElementById('registration-popup').style.display = 'block';  // Show popup
   });
 
   document.getElementById('confirm-registration').addEventListener('click', function() {
     const cuhkAccount = document.getElementById('cuhk-account').value;
-    
-    if (cuhkAccount) {
+    const cuhkAccountRegex = /^\d{10}$/;  // Regular expression for 10 digits
+
+    if (cuhkAccountRegex.test(cuhkAccount)) {
       alert('Registration successful!');
-      document.getElementById('registration-popup').style.display = 'none';
-      document.getElementById('gpt-submit').disabled = false;
+      document.getElementById('gpt-submit').disabled = false;  // Enable submit button
     } else {
-      alert('Please enter your CUHK account.');
+      alert('Invalid CUHK account. Please enter a 10-digit number.');
     }
+
+    // Clear the input field
+    document.getElementById('cuhk-account').value = '';
+    
+    // Hide popup and overlay
+    document.getElementById('registration-popup').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
   });
 
   async function sendToGPT() {
@@ -372,6 +384,7 @@ model.save_pretrained("./llama3-8b-lora-finetuned")
     }
   }
 </script>
+
 
 
       </div>
