@@ -44,12 +44,19 @@ def generate():
         # Make the request to the third-party API
         response = requests.post(base_url, json=payload, headers=headers)
         
+        # Print out the raw response text for debugging
+        print("Raw response text:", response.text)
+
         # Check if the request was successful
         if response.status_code == 200:
-            output = response.json().get('output')
-            print("API call successful, response received.")
-            print("Response:", output)
-            return jsonify({'output': output})
+            try:
+                output = response.json().get('output')
+                print("API call successful, response received.")
+                print("Response:", output)
+                return jsonify({'output': output})
+            except ValueError:
+                print("Failed to parse JSON response")
+                return jsonify({'error': 'Invalid JSON response'}), 500
         else:
             print(f"Error during API call: {response.text}")
             return jsonify({'error': 'The server is overloaded or not ready yet.'}), 500
