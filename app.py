@@ -7,7 +7,7 @@ CORS(app)  # Enable CORS support
 
 # Your third-party API key
 api_key = 'sk-CRIeTtB7ily8Tyrq577d9a2dC628484bB1C8C0B566A69200'
-base_url = 'https://oneapi.xty.app/v1/generate'  # Ensure this is the correct endpoint
+base_url = 'https://oneapi.xty.app/v1'  # Ensure this is the correct endpoint
 
 @app.route('/generate', methods=['POST'])
 def generate():
