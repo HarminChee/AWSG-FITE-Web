@@ -22,7 +22,8 @@ def generate():
     
     data = request.json
     model = data.get('model')
-    prompt = data.get('prompt')
+    # Extract prompt from the 'messages' field
+    prompt = data['messages'][0]['content'] if 'messages' in data and len(data['messages']) > 0 else None
     temperature = data.get('temperature')
     max_tokens = data.get('max_tokens')
 
@@ -31,6 +32,9 @@ def generate():
     print(f"Prompt: {prompt}")
     print(f"Temperature: {temperature}")
     print(f"Max Tokens: {max_tokens}")
+
+    if prompt is None:
+        return jsonify({'error': 'No prompt provided'}), 400
 
     try:
         # Call OpenAI API and print call status
@@ -50,6 +54,7 @@ def generate():
         # Print exception information
         print(f"Error during API call: {str(e)}")
         return jsonify({'error': str(e)}), 500
+
 
 @app.route('/register', methods=['POST'])
 def register():
