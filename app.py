@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS support
 
 # Replace with your API key and base URL if needed
-api_key = 'sk-5pkp7lLRC2nx8hCzBfB44fD499Bf48B3B408Eb39E604Fa77'
+api_key = 'sk-CRIeTtB7ily8Tyrq577d9a2dC628484bB1C8C0B566A69200'
 base_url = 'https://oneapi.xty.app/v1'
 
 openai.api_key = api_key
