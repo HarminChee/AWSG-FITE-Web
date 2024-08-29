@@ -42,8 +42,8 @@ def generate():
         }
 
         # Make the request to the third-party API
-        response = requests.post(f'{base_url}', json=payload, headers=headers)
-
+        response = requests.post(base_url, json=payload, headers=headers)
+        
         # Check if the request was successful
         if response.status_code == 200:
             output = response.json().get('output')
