@@ -7,8 +7,8 @@ import requests
 app = Flask(__name__)
 CORS(app)  
 
+base_url = 'https://hk.xty.app/v1' 
 api_key = 'sk-CRIeTtB7ily8Tyrq577d9a2dC628484bB1C8C0B566A69200'
-base_url = 'https://hk.xty.app/v1'  # Ensure this is the correct endpoint
 
 @app.route('/generate', methods=['POST'])
 def generate():
