@@ -1,11 +1,12 @@
+import signal
+import sys  
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS support
+CORS(app)  
 
-# Your third-party API key
 api_key = 'sk-CRIeTtB7ily8Tyrq577d9a2dC628484bB1C8C0B566A69200'
 base_url = 'https://hk.xty.app/v1'  # Ensure this is the correct endpoint
 
