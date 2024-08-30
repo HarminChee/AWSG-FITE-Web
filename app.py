@@ -35,8 +35,8 @@ def generate():
             "model": model,
             "messages": [{"role": "user", "content": prompt}],
             "temperature": temperature,
-            "max_tokens": max_tokens,
-            "stream": True  # Include stream parameter as suggested
+            "max_tokens": max_tokens
+            # Removed "stream": True
         }
 
         headers = {
