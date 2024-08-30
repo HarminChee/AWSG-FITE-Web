@@ -1,13 +1,14 @@
 import signal
-import sys  
+import sys
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
 
 app = Flask(__name__)
-CORS(app)  
+CORS(app)
 
-base_url = 'https://hk.xty.app/v1' 
+# Update the base_url to the correct endpoint
+base_url = 'https://api.xty.app/v1/chat/completions'
 api_key = 'sk-CRIeTtB7ily8Tyrq577d9a2dC628484bB1C8C0B566A69200'
 
 @app.route('/generate', methods=['POST'])
@@ -15,10 +16,10 @@ def generate():
     print("Received request data:", request.json)
     
     data = request.json
-    model = data.get('model')
+    model = data.get('model', 'gpt-3.5-turbo')  # Use the default model if not provided
     prompt = data['messages'][0]['content'] if 'messages' in data and len(data['messages']) > 0 else None
-    temperature = data.get('temperature')
-    max_tokens = data.get('max_tokens')
+    temperature = data.get('temperature', 0.7)  # Use default temperature if not provided
+    max_tokens = data.get('max_tokens', 100)  # Default max_tokens
 
     print(f"Model: {model}")
     print(f"Prompt: {prompt}")
@@ -32,9 +33,10 @@ def generate():
         # Prepare the request payload for the third-party API
         payload = {
             "model": model,
-            "input": prompt,
+            "messages": [{"role": "user", "content": prompt}],
             "temperature": temperature,
-            "max_tokens": max_tokens
+            "max_tokens": max_tokens,
+            "stream": True  # Include stream parameter as suggested
         }
 
         headers = {
@@ -44,14 +46,14 @@ def generate():
 
         # Make the request to the third-party API
         response = requests.post(base_url, json=payload, headers=headers)
-        
+
         # Print out the raw response text for debugging
         print("Raw response text:", response.text)
 
         # Check if the request was successful
         if response.status_code == 200:
             try:
-                output = response.json().get('output')
+                output = response.json().get('choices', [{}])[0].get('message', {}).get('content', '')
                 print("API call successful, response received.")
                 print("Response:", output)
                 return jsonify({'output': output})
@@ -91,8 +93,6 @@ def is_port_in_use(port):
         return s.connect_ex(('localhost', port)) == 0
 
 if __name__ == '__main__':
-    import signal
-
     signal.signal(signal.SIGINT, handle_exit)
     signal.signal(signal.SIGTERM, handle_exit)
 
