@@ -3,9 +3,10 @@ import sys
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
+from datetime import datetime  # 用于获取当前日期
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Update the base_url to the correct endpoint
 base_url = 'https://api.xty.app/v1/chat/completions'
@@ -73,6 +74,9 @@ def register():
     data = request.json
     cuhk_account = data.get('cuhk_account')
 
+    # 调用函数来更新访问量统计
+    update_daily_visits()
+
     if cuhk_account and len(cuhk_account) == 10 and cuhk_account.isdigit():
         try:
             with open('cuhk_accounts.txt', 'a') as file:
@@ -83,10 +87,38 @@ def register():
     else:
         return jsonify({'message': 'Invalid CUHK account. Please enter a 10-digit number.'}), 400
 
+# 更新每日访问量的函数
+def update_daily_visits():
+    today = datetime.now().strftime('%Y-%m-%d')  # 获取当前日期
+    visits = {}
+
+    # 尝试读取现有的访问记录
+    try:
+        with open('daily_visits.txt', 'r') as file:
+            for line in file:
+                date, count = line.strip().split(',')
+                visits[date] = int(count)
+    except FileNotFoundError:
+        # 文件不存在，初始化为空
+        pass
+
+    # 更新今日的访问量
+    if today in visits:
+        visits[today] += 1
+    else:
+        visits[today] = 1
+
+    # 将更新后的访问记录写回文件
+    with open('daily_visits.txt', 'w') as file:
+        for date, count in visits.items():
+            file.write(f'{date},{count}\n')
+
+# 处理服务器退出的信号
 def handle_exit(sig, frame):
     print("Shutting down server...")
     sys.exit(0)
 
+# 检查端口是否被占用
 def is_port_in_use(port):
     import socket
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
